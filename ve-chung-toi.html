@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Về Chúng Tôi – Cội Nguồn VN</title>
+<meta name="description" content="Cội Nguồn VN là cộng đồng người Việt tại Mỹ, nơi chia sẻ kinh nghiệm thực tế về định cư, sự nghiệp, tài chính và văn hóa. Tìm hiểu câu chuyện của chúng tôi.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://coinguonvn.com/ve-chung-toi">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cội Nguồn VN">
+<meta property="og:title" content="Về Chúng Tôi – Cội Nguồn VN">
+<meta property="og:description" content="Cội Nguồn VN là cộng đồng người Việt tại Mỹ, nơi chia sẻ kinh nghiệm thực tế về định cư, sự nghiệp, tài chính và văn hóa.">
+<meta property="og:url" content="https://coinguonvn.com/ve-chung-toi">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "Về Chúng Tôi",
+  "url": "https://coinguonvn.com/ve-chung-toi",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cội Nguồn VN",
+    "url": "https://coinguonvn.com",
+    "foundingDate": "2022",
+    "description": "Cộng đồng người Việt tại Hoa Kỳ",
+    "sameAs": ["https://facebook.com/coinguonvn","https://youtube.com/coinguonvn"]
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --red: #C0182A; --red-dk: #9e1020; --red-dark: #9e1020; --red-light: #F5E6E9;
+  --gold: #D4A017; --ink: #1a1a1a; --mid: #777;
+  --border: #e8e8e8; --white: #fff; --smoke: #f7f7f7;
+  --gray-50: #f7f7f7; --gray-100: #F5F5F5; --gray-200: #e8e8e8;
+  --gray-300: #E0E0E0; --gray-400: #BDBDBD; --gray-500: #9E9E9E;
+  --gray-600: #757575; --gray-700: #616161; --gray-800: #424242; --gray-900: #212121;
+  --font-body: 'Be Vietnam Pro', sans-serif; --font-heading: 'Playfair Display', serif;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow:    0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.06);
+  --shadow-md: 0 10px 15px rgba(0,0,0,.07), 0 4px 6px rgba(0,0,0,.05);
+  --shadow-lg: 0 20px 25px rgba(0,0,0,.06), 0 10px 10px rgba(0,0,0,.04);
+  --ease: cubic-bezier(.4,0,.2,1);
+  --container: 1200px; --gap: 24px; --nav-h: 46px;
+}
+
+body { font-family: var(--font-body); background: #f0eeeb; min-height: 100vh; color: var(--ink); }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+button { font-family: var(--font-body); cursor: pointer; }
+.container { max-width: var(--container); margin: 0 auto; padding: 0 var(--gap); }
+.c-inner   { max-width: var(--container); margin: 0 auto; padding: 0 var(--gap); }
+
+.skip-link { position: absolute; top: -100%; left: 16px; background: var(--red); color: #fff; padding: 8px 16px; border-radius: 8px; font-weight: 600; z-index: 9999; transition: top 200ms; }
+.skip-link:focus { top: 8px; }
+
+/* ─── HEADER ─── */
+.site-header { background: var(--white); border-bottom: 1px solid var(--border); }
+.site-header .c-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 14px; padding-bottom: 14px; }
+.logo { display: flex; align-items: center; gap: 11px; text-decoration: none; flex-shrink: 0; }
+.logo-emblem { width: 50px; height: 50px; border-radius: 50%; background: var(--gold); border: 2.5px solid var(--red); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.logo-emblem svg { width: 28px; height: 28px; }
+.logo-text { display: flex; flex-direction: column; gap: 6px; line-height: 1; }
+.logo-name { font-family: var(--font-heading); font-size: 24px; font-weight: 700; color: var(--red); letter-spacing: -0.01em; }
+.logo-sub  { font-size: 9.5px; font-weight: 600; letter-spacing: 0.16em; color: var(--mid); text-transform: uppercase; }
+.search-wrap { position: relative; width: 300px; flex-shrink: 0; }
+.search-wrap input { width: 100%; height: 40px; border: 1.5px solid var(--border); border-radius: 20px; padding: 0 44px 0 18px; font-size: 13.5px; font-family: var(--font-body); color: var(--ink); background: var(--smoke); outline: none; transition: border-color .18s, box-shadow .18s, background .18s; }
+.search-wrap input::placeholder { color: #bbb; }
+.search-wrap input:focus { border-color: var(--red); background: var(--white); box-shadow: 0 0 0 3px rgba(192,24,42,0.08); }
+.search-btn { position: absolute; right: 0; top: 0; bottom: 0; width: 40px; background: var(--red); border: none; border-radius: 0 20px 20px 0; cursor: pointer; display: flex; align-items: center; justify-content: center; color: white; transition: background .15s; }
+.search-btn:hover { background: var(--red-dk); }
+.search-btn svg { width: 15px; height: 15px; }
+
+/* ─── NAVBAR ─── */
+.navbar { background: var(--red); position: sticky; top: 0; z-index: 400; box-shadow: 0 2px 8px rgba(192,24,42,0.18); }
+.navbar-inner { max-width: var(--container); margin: 0 auto; padding: 0 var(--gap); display: flex; align-items: center; }
+.nav-link { display: flex; align-items: center; height: var(--nav-h); padding: 0 15px; font-size: 13.5px; font-weight: 700; color: rgba(255,255,255,0.9); text-decoration: none; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; transition: background .15s, color .15s; position: relative; }
+.nav-link::after { content: ''; position: absolute; bottom: 0; left: 50%; right: 50%; height: 3px; background: var(--gold); transition: left .2s, right .2s; border-radius: 2px 2px 0 0; }
+.nav-link:hover { color: #fff; background: rgba(0,0,0,0.12); }
+.nav-link:hover::after { left: 9px; right: 9px; }
+.nav-link--home { padding: 0 12px; }
+.nav-link--home svg { width: 19px; height: 19px; fill: currentColor; }
+.nav-dot { width: 3px; height: 3px; border-radius: 50%; background: rgba(255,255,255,0.3); flex-shrink: 0; }
+.navbar-mobile-bar { display: none; max-width: var(--container); margin: 0 auto; padding: 0 var(--gap); min-height: var(--nav-h); align-items: center; gap: 12px; }
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 10px; flex-direction: column; gap: 5px; align-items: flex-end; flex-shrink: 0; }
+.hamburger span { display: block; height: 2px; background: white; border-radius: 2px; transition: transform .25s, opacity .2s, width .2s; }
+.hamburger span:nth-child(1) { width: 22px; }
+.hamburger span:nth-child(2) { width: 16px; }
+.hamburger span:nth-child(3) { width: 22px; }
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); width: 22px; }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); width: 22px; }
+.mobile-drawer { display: none; position: absolute; left: 0; right: 0; top: 100%; min-height: 100vh; background: rgba(0,0,0,0.45); z-index: 300; opacity: 0; pointer-events: none; transition: opacity .22s; }
+.mobile-drawer.open { opacity: 1; pointer-events: all; }
+.mobile-panel { background: var(--white); border-top: 5px solid white; transform: translateY(-8px); transition: transform .28s cubic-bezier(.4,0,.2,1); border-bottom: 3px solid var(--red); box-shadow: 0 8px 32px rgba(0,0,0,0.18); }
+.mobile-drawer.open .mobile-panel { transform: translateY(0); }
+.mobile-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 12px 16px 16px; }
+.mobile-nav-link { display: flex; align-items: center; justify-content: center; gap: 9px; padding: 11px 14px; border-radius: 8px; background: var(--smoke); font-size: 13px; font-weight: 700; letter-spacing: 0.02em; color: var(--ink); text-decoration: none; text-transform: uppercase; transition: background .12s, color .12s; }
+.mobile-nav-link:hover { background: var(--red); color: white; }
+.mobile-nav-link--home { grid-column: 1 / -1; gap: 8px; }
+.home-svg { width: 16px; height: 16px; fill: currentColor; flex-shrink: 0; }
+.m-icon { font-size: 15px; }
+
+/* ─── PAGE HERO ─── */
+.page-hero {
+  position: relative; overflow: hidden;
+  background: linear-gradient(135deg, #7a0010 0%, var(--red) 60%, #C0182A 100%);
+  padding: 64px 0 56px;
+}
+.page-hero::before {
+  content: ''; position: absolute; inset: 0; z-index: 0;
+  background:
+    radial-gradient(ellipse 70% 80% at 90% 50%, rgba(212,160,23,.1) 0%, transparent 60%),
+    repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,.02) 40px, rgba(255,255,255,.02) 41px);
+}
+.page-hero .container { position: relative; z-index: 1; }
+.page-hero__eyebrow { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .18em; color: rgba(255,255,255,.6); margin-bottom: 14px; }
+.page-hero__title { font-family: var(--font-heading); font-size: 2.75rem; color: #fff; line-height: 1.15; margin-bottom: 16px; }
+.page-hero__desc { font-size: 16px; line-height: 1.75; color: rgba(255,255,255,.82); max-width: 560px; }
+
+/* Breadcrumb */
+.breadcrumb-wrap { padding: 16px 0 0; }
+.breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--gray-500); flex-wrap: wrap; }
+.breadcrumb a { color: var(--gray-600); transition: color 200ms; }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb__sep { color: var(--gray-300); }
+
+/* ─── SECTIONS ─── */
+.section-white { background: var(--white); }
+.section-smoke { background: var(--gray-50); border-top: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); }
+
+/* Story section */
+.story-section { padding: 72px 0; }
+.story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.story-img { border-radius: 20px; overflow: hidden; aspect-ratio: 4/3; box-shadow: var(--shadow-lg); position: relative; }
+.story-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.story-img__badge {
+  position: absolute; bottom: 20px; left: 20px;
+  background: rgba(0,0,0,.65); backdrop-filter: blur(8px);
+  color: #fff; border-radius: 10px; padding: 10px 16px;
+  font-size: 13px; font-weight: 600; line-height: 1.4;
+}
+.story-img__badge strong { display: block; font-size: 1.25rem; font-family: var(--font-heading); color: var(--gold); }
+.story-content { display: flex; flex-direction: column; gap: 20px; }
+.eyebrow { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--red); }
+.story-title { font-family: var(--font-heading); font-size: 2rem; line-height: 1.25; }
+.story-body { font-size: 15px; line-height: 1.8; color: var(--gray-700); display: flex; flex-direction: column; gap: 14px; }
+.story-body p { margin: 0; }
+
+/* Stats bar */
+.stats-section { padding: 56px 0; background: var(--red); }
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.stat-item { text-align: center; padding: 8px 24px; border-right: 1px solid rgba(255,255,255,.2); }
+.stat-item:last-child { border-right: none; }
+.stat-item__num { font-family: var(--font-heading); font-size: 2.5rem; color: #fff; line-height: 1; margin-bottom: 6px; }
+.stat-item__num span { font-size: 1.5rem; }
+.stat-item__label { font-size: 13px; color: rgba(255,255,255,.75); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+
+/* Mission / Values */
+.mission-section { padding: 72px 0; }
+.mission-header { text-align: center; margin-bottom: 48px; }
+.section-title { font-family: var(--font-heading); font-size: 2rem; color: var(--ink); margin-bottom: 12px; }
+.section-subtitle { font-size: 15px; color: var(--mid); line-height: 1.7; max-width: 540px; margin: 0 auto; }
+.values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.value-card {
+  background: var(--white); border-radius: 16px; padding: 32px 28px;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--gray-200);
+  transition: box-shadow 200ms, transform 200ms;
+}
+.value-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.value-card__icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  background: var(--red-light); display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px; font-size: 1.5rem;
+}
+.value-card__title { font-family: var(--font-heading); font-size: 1.125rem; margin-bottom: 10px; }
+.value-card__desc { font-size: 14px; line-height: 1.7; color: var(--gray-600); }
+
+/* Team section */
+.team-section { padding: 72px 0; }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 48px; }
+.team-card {
+  background: var(--white); border-radius: 16px; overflow: hidden;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--gray-200);
+  transition: box-shadow 200ms, transform 200ms; text-align: center;
+}
+.team-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.team-card__img-wrap { aspect-ratio: 1/1; overflow: hidden; }
+.team-card__img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 400ms; }
+.team-card:hover .team-card__img-wrap img { transform: scale(1.05); }
+.team-card__body { padding: 22px 20px 24px; }
+.team-card__name { font-family: var(--font-heading); font-size: 1.125rem; margin-bottom: 4px; }
+.team-card__role { font-size: 13px; color: var(--red); font-weight: 600; margin-bottom: 12px; }
+.team-card__bio { font-size: 13px; line-height: 1.65; color: var(--gray-600); margin-bottom: 16px; }
+.team-card__social { display: flex; justify-content: center; gap: 10px; }
+.team-card__social a {
+  width: 32px; height: 32px; border-radius: 8px;
+  background: var(--gray-100); color: var(--gray-600);
+  display: flex; align-items: center; justify-content: center;
+  transition: background 200ms, color 200ms;
+}
+.team-card__social a:hover { background: var(--red); color: #fff; }
+.team-card__social svg { width: 14px; height: 14px; }
+
+/* Timeline */
+.timeline-section { padding: 72px 0; }
+.timeline { max-width: 720px; margin: 48px auto 0; position: relative; }
+.timeline::before {
+  content: ''; position: absolute;
+  left: 50%; transform: translateX(-50%);
+  top: 0; bottom: 0; width: 2px;
+  background: linear-gradient(to bottom, var(--red), var(--gold));
+}
+.timeline-item { display: flex; gap: 32px; margin-bottom: 48px; position: relative; }
+.timeline-item:last-child { margin-bottom: 0; }
+.timeline-item--right { flex-direction: row-reverse; }
+.timeline-item__side { flex: 1; }
+.timeline-item__dot {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: var(--red); border: 3px solid var(--white);
+  box-shadow: 0 0 0 3px var(--red);
+  flex-shrink: 0; align-self: flex-start; margin-top: 6px; position: relative; z-index: 1;
+}
+.timeline-item__card {
+  background: var(--white); border-radius: 12px; padding: 20px 22px;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--gray-200);
+}
+.timeline-item__year { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--red); margin-bottom: 6px; }
+.timeline-item__title { font-family: var(--font-heading); font-size: 1.05rem; margin-bottom: 6px; }
+.timeline-item__desc { font-size: 13px; line-height: 1.65; color: var(--gray-600); }
+.timeline-item--right .timeline-item__card { text-align: right; }
+
+/* Contact section */
+.contact-section { padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+.contact-info { display: flex; flex-direction: column; gap: 24px; }
+.contact-info__title { font-family: var(--font-heading); font-size: 1.75rem; line-height: 1.3; margin-bottom: 4px; }
+.contact-info__desc { font-size: 15px; line-height: 1.75; color: var(--gray-600); }
+.contact-items { display: flex; flex-direction: column; gap: 14px; }
+.contact-item { display: flex; align-items: flex-start; gap: 14px; }
+.contact-item__icon { width: 40px; height: 40px; border-radius: 10px; background: var(--red-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.contact-item__icon svg { width: 18px; height: 18px; color: var(--red); }
+.contact-item__label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gray-500); margin-bottom: 2px; }
+.contact-item__value { font-size: 14px; font-weight: 600; color: var(--ink); }
+.contact-social { display: flex; gap: 10px; }
+.social-btn {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 16px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; color: #fff;
+  transition: transform 200ms, box-shadow 200ms;
+}
+.social-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.social-btn--fb { background: #1877F2; }
+.social-btn--yt { background: #FF0000; }
+.social-btn--tt { background: #010101; }
+.social-btn svg { width: 16px; height: 16px; }
+
+/* Contact form */
+.contact-form-wrap {
+  background: var(--white); border-radius: 20px; padding: 36px;
+  box-shadow: var(--shadow-md); border: 1px solid var(--gray-200);
+}
+.contact-form-wrap h3 { font-family: var(--font-heading); font-size: 1.375rem; margin-bottom: 6px; }
+.contact-form-wrap p { font-size: 14px; color: var(--mid); margin-bottom: 24px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.form-label { font-size: 12px; font-weight: 700; color: var(--gray-700); text-transform: uppercase; letter-spacing: .06em; }
+.form-input {
+  width: 100%; padding: 12px 16px;
+  border: 1.5px solid var(--gray-200); border-radius: 8px;
+  font-size: 14px; font-family: var(--font-body); color: var(--ink);
+  background: var(--white); outline: none;
+  transition: border-color .18s, box-shadow .18s;
+}
+.form-input::placeholder { color: var(--gray-400); }
+.form-input:focus { border-color: var(--red); box-shadow: 0 0 0 3px rgba(192,24,42,.08); }
+textarea.form-input { resize: vertical; min-height: 100px; }
+.form-submit {
+  width: 100%; padding: 14px; border-radius: 8px;
+  background: var(--red); color: #fff; border: none;
+  font-size: 15px; font-weight: 700; font-family: var(--font-body);
+  cursor: pointer; transition: background .15s, transform .15s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.form-submit:hover { background: var(--red-dark); transform: translateY(-1px); }
+.form-submit svg { width: 16px; height: 16px; }
+.form-note { font-size: 12px; color: var(--gray-500); text-align: center; margin-top: 10px; }
+
+/* ─── FOOTER ─── */
+.site-footer { background: #111827; color: var(--gray-300); }
+.footer-top { padding: 56px 0; }
+.footer-top__grid { display: grid; grid-template-columns: 280px 1fr; gap: 48px; }
+.footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.footer-logo__name { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: #fff; }
+.footer-brand__desc { font-size: 14px; line-height: 1.7; color: var(--gray-400); margin-bottom: 20px; }
+.footer-social { display: flex; gap: 12px; }
+.footer-social a { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.08); border-radius: 8px; color: var(--gray-400); transition: background 200ms, color 200ms; }
+.footer-social a:hover { background: var(--red); color: #fff; }
+.footer-nav { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; }
+.footer-nav__title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: #fff; margin-bottom: 16px; }
+.footer-nav ul { display: flex; flex-direction: column; gap: 8px; }
+.footer-nav a { font-size: 14px; color: var(--gray-400); transition: color 200ms; }
+.footer-nav a:hover { color: var(--gold); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding: 20px 0; text-align: center; }
+.footer-bottom__copy { font-size: 12px; color: var(--gray-500); }
+
+/* Back to top */
+.back-to-top { position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px; background: var(--red); color: #fff; border-radius: 50%; border: none; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); cursor: pointer; transition: background 200ms, transform 200ms; z-index: 500; }
+.back-to-top:hover { background: var(--red-dark); transform: translateY(-2px); }
+.back-to-top[hidden] { display: none; }
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1200px) {
+  .navbar-inner { display: none; }
+  .navbar-mobile-bar { display: flex; }
+  .hamburger { display: flex; }
+  .mobile-drawer { display: block; }
+  .m-icon { display: none; }
+  .mobile-nav-link { justify-content: center; }
+}
+@media (max-width: 1024px) {
+  .story-grid { grid-template-columns: 1fr; gap: 40px; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-top__grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-nav { grid-template-columns: repeat(3, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(255,255,255,.2); }
+  .stat-item { background: var(--red); border-right: none; }
+}
+@media (max-width: 768px) {
+  .page-hero { padding: 48px 0 40px; }
+  .page-hero__title { font-size: 2rem; }
+  .values-grid { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .timeline::before { left: 20px; transform: none; }
+  .timeline-item { flex-direction: column; padding-left: 48px; }
+  .timeline-item--right { flex-direction: column; }
+  .timeline-item__dot { position: absolute; left: 14px; }
+  .timeline-item--right .timeline-item__card { text-align: left; }
+  .form-row { grid-template-columns: 1fr; }
+  .contact-form-wrap { padding: 24px; }
+  .footer-nav { grid-template-columns: repeat(2, 1fr); }
+  .search-wrap { width: 220px; }
+}
+@media (max-width: 480px) {
+  .logo-sub { display: none; }
+  .site-header .c-inner { flex-wrap: wrap; padding-bottom: 12px; gap: 8px 0; }
+  .search-wrap { width: 100%; flex-shrink: 1; }
+  .team-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Bỏ qua điều hướng</a>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="c-inner">
+    <a href="index.html" class="logo" aria-label="Cội Nguồn VN - Trang chủ">
+      <div class="logo-emblem">
+        <svg viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="14" fill="#C0182A" stroke="#fff" stroke-width="1"/>
+          <circle cx="16" cy="16" r="11" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+          <ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(0 16 16)"/>
+          <ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(90 16 16)"/>
+          <ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(180 16 16)"/>
+          <ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(270 16 16)"/>
+          <circle cx="16" cy="16" r="3.5" fill="#D4A017"/>
+          <circle cx="16" cy="16" r="2" fill="#C0182A"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Cội Nguồn VN</span>
+        <span class="logo-sub">Cộng đồng Người Việt tại Mỹ</span>
+      </div>
+    </a>
+    <form class="search-wrap" role="search" action="tim-kiem.html" method="get">
+      <input type="search" name="q" placeholder="Tìm kiếm bài viết..." aria-label="Tìm kiếm" autocomplete="off">
+      <button type="submit" class="search-btn" aria-label="Tìm kiếm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      </button>
+    </form>
+  </div>
+</header>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" aria-label="Menu chính">
+  <div class="navbar-mobile-bar">
+    <button class="hamburger" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="navbar-inner">
+    <a href="index.html" class="nav-link nav-link--home" aria-label="Trang chủ">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg>
+    </a>
+    <span class="nav-dot"></span>
+    <a href="cuoc-song-dinh-cu.html" class="nav-link">Cuộc Sống &amp; Định Cư</a>
+    <span class="nav-dot"></span>
+    <a href="giay-to-phap-ly.html" class="nav-link">Giấy Tờ &amp; Pháp Lý</a>
+    <span class="nav-dot"></span>
+    <a href="tai-chinh.html" class="nav-link">Tài Chính</a>
+    <span class="nav-dot"></span>
+    <a href="su-nghiep.html" class="nav-link">Sự Nghiệp</a>
+    <span class="nav-dot"></span>
+    <a href="giao-duc.html" class="nav-link">Giáo Dục</a>
+    <span class="nav-dot"></span>
+    <a href="suc-khoe.html" class="nav-link">Sức Khoẻ</a>
+    <span class="nav-dot"></span>
+    <a href="van-hoa.html" class="nav-link">Văn Hoá</a>
+    <span class="nav-dot"></span>
+    <a href="du-lich-am-thuc.html" class="nav-link">Du Lịch &amp; Ẩm Thực</a>
+  </div>
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-panel">
+      <div class="mobile-grid">
+        <a href="index.html" class="mobile-nav-link mobile-nav-link--home">
+          <svg class="home-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg>
+          Trang Chủ
+        </a>
+        <a href="cuoc-song-dinh-cu.html" class="mobile-nav-link"><span class="m-icon">🏘️</span>Định Cư</a>
+        <a href="giay-to-phap-ly.html" class="mobile-nav-link"><span class="m-icon">📄</span>Pháp Lý</a>
+        <a href="tai-chinh.html" class="mobile-nav-link"><span class="m-icon">💰</span>Tài Chính</a>
+        <a href="su-nghiep.html" class="mobile-nav-link"><span class="m-icon">💼</span>Sự Nghiệp</a>
+        <a href="giao-duc.html" class="mobile-nav-link"><span class="m-icon">🎓</span>Giáo Dục</a>
+        <a href="suc-khoe.html" class="mobile-nav-link"><span class="m-icon">❤️</span>Sức Khoẻ</a>
+        <a href="van-hoa.html" class="mobile-nav-link"><span class="m-icon">🌸</span>Văn Hoá</a>
+        <a href="du-lich-am-thuc.html" class="mobile-nav-link"><span class="m-icon">🍜</span>Ẩm Thực</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main id="main-content" tabindex="-1">
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <p class="page-hero__eyebrow">Về chúng tôi</p>
+      <h1 class="page-hero__title" id="page-title">Câu Chuyện Của Cội Nguồn VN</h1>
+      <p class="page-hero__desc">Sinh ra từ nỗi nhớ nhà, lớn lên từ những câu hỏi không có lời đáp — chúng tôi xây Cội Nguồn VN để không ai trong cộng đồng người Việt tại Mỹ phải mò mẫm một mình.</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumb -->
+  <div class="section-white" style="padding: 16px 0 0;">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Đường dẫn">
+        <a href="index.html">Trang Chủ</a>
+        <span class="breadcrumb__sep" aria-hidden="true">›</span>
+        <span aria-current="page">Về Chúng Tôi</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ── Story ── -->
+  <section class="story-section section-white" aria-labelledby="story-title">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-img">
+          <img src="kinh-nghiem-day-tre-tro-thanh-nguoi-luong-thien-480x320.webp"
+               alt="Cộng đồng người Việt tại Mỹ" loading="eager" width="800" height="600">
+          <div class="story-img__badge">
+            <strong>2022</strong>
+            Năm thành lập
+          </div>
+        </div>
+        <div class="story-content">
+          <p class="eyebrow">Câu chuyện của chúng tôi</p>
+          <h2 class="story-title" id="story-title">Từ Một Tờ Giấy Trắng Đến Cộng Đồng Hàng Chục Nghìn Người</h2>
+          <div class="story-body">
+            <p>Năm 2022, Mai Nguyễn — vừa đặt chân đến San Jose sau 14 tiếng bay — ngồi lại với tờ giấy trắng và vô số câu hỏi: xin việc ở đâu, mở tài khoản ngân hàng thế nào, bảo hiểm sức khoẻ chọn gói nào, con cái vào trường nào tốt hơn?</p>
+            <p>Không có một nguồn thông tin nào bằng tiếng Việt, cập nhật, và đủ tin cậy. Phải gõ từng câu hỏi vào Google, đọc những diễn đàn từ 2015, rồi gọi điện hỏi người quen từ sáng sớm đến đêm khuya.</p>
+            <p>Đó là lý do Cội Nguồn VN ra đời — không phải một tờ báo, không phải một diễn đàn ồn ào, mà là một <strong>thư viện kinh nghiệm thực tế</strong> được viết bởi những người đã sống qua, được kiểm chứng bởi cộng đồng, và được cập nhật liên tục.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats ── -->
+  <section class="stats-section" aria-label="Thống kê">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-item__num">48<span>k+</span></div>
+          <div class="stat-item__label">Độc giả mỗi tháng</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">560<span>+</span></div>
+          <div class="stat-item__label">Bài viết đã xuất bản</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">8</div>
+          <div class="stat-item__label">Chuyên mục chính</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__num">3<span>+</span></div>
+          <div class="stat-item__label">Năm đồng hành</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Mission & Values ── -->
+  <section class="mission-section section-smoke" aria-labelledby="mission-title">
+    <div class="container">
+      <div class="mission-header">
+        <p class="eyebrow" style="text-align:center; margin-bottom:10px;">Sứ mệnh & Giá trị</p>
+        <h2 class="section-title" id="mission-title">Chúng Tôi Tin Vào Điều Gì</h2>
+        <p class="section-subtitle">Mỗi quyết định nhỏ — từ chọn trường cho con đến ký hợp đồng thuê nhà — đều quan trọng. Chúng tôi ở đây để bạn không phải quyết định trong bóng tối.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">✅</div>
+          <h3 class="value-card__title">Thông Tin Đáng Tin Cậy</h3>
+          <p class="value-card__desc">Mọi bài viết đều được kiểm chứng từ nguồn chính thức hoặc kinh nghiệm thực tế của cộng đồng. Chúng tôi không suy đoán — chúng tôi xác nhận.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">🤝</div>
+          <h3 class="value-card__title">Cộng Đồng Trên Hết</h3>
+          <p class="value-card__desc">Người Việt giúp người Việt. Chúng tôi là cầu nối để những kinh nghiệm quý giá không bị thất lạc — từ người đã qua chia sẻ lại cho người mới bắt đầu.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">🔄</div>
+          <h3 class="value-card__title">Luôn Cập Nhật</h3>
+          <p class="value-card__desc">Luật thay đổi, chính sách thay đổi, cuộc sống thay đổi. Chúng tôi theo dõi liên tục để bạn không bỏ lỡ thông tin quan trọng ảnh hưởng đến cuộc sống của mình.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">🌏</div>
+          <h3 class="value-card__title">Giữ Gốc, Hội Nhập Sâu</h3>
+          <p class="value-card__desc">Chúng tôi tin rằng hội nhập thành công nhất khi bạn không đánh mất bản sắc. Tiếng Việt, văn hoá Việt là tài sản — không phải rào cản.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">📖</div>
+          <h3 class="value-card__title">Dễ Hiểu, Đủ Sâu</h3>
+          <p class="value-card__desc">Không dùng thuật ngữ pháp lý khó hiểu, không đơn giản hoá quá mức. Chúng tôi viết như giải thích cho người thân — thân thiện nhưng đầy đủ.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__icon" aria-hidden="true">🔒</div>
+          <h3 class="value-card__title">Minh Bạch Hoàn Toàn</h3>
+          <p class="value-card__desc">Khi có nội dung tài trợ, chúng tôi nói rõ. Khi có giới hạn của thông tin, chúng tôi thừa nhận. Sự tin tưởng của bạn quan trọng hơn mọi con số.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Team ── -->
+  <section class="team-section section-white" aria-labelledby="team-title">
+    <div class="container">
+      <div style="text-align:center;">
+        <p class="eyebrow" style="margin-bottom:10px;">Con người</p>
+        <h2 class="section-title" id="team-title">Đội Ngũ Cội Nguồn VN</h2>
+        <p class="section-subtitle">Chúng tôi là những người Việt đang sống, làm việc và xây dựng tương lai tại Mỹ — không khác gì bạn.</p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card" itemscope itemtype="https://schema.org/Person">
+          <div class="team-card__img-wrap">
+            <img src="https://picsum.photos/seed/avatar-mai/400/400" alt="Mai Nguyễn" loading="lazy" width="400" height="400" itemprop="image">
+          </div>
+          <div class="team-card__body">
+            <h3 class="team-card__name" itemprop="name">Mai Nguyễn</h3>
+            <p class="team-card__role" itemprop="jobTitle">Nhà sáng lập & Tổng biên tập</p>
+            <p class="team-card__bio" itemprop="description">Cựu kỹ sư phần mềm tại Google. Định cư tại San Jose từ 2022. Viết về sự nghiệp, tài chính và cuộc sống hàng ngày của người Việt tại Thung lũng Silicon.</p>
+            <div class="team-card__social">
+              <a href="#" aria-label="LinkedIn của Mai Nguyễn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" aria-label="Facebook của Mai Nguyễn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card" itemscope itemtype="https://schema.org/Person">
+          <div class="team-card__img-wrap">
+            <img src="https://picsum.photos/seed/avatar-hieu/400/400" alt="Hiếu Trần" loading="lazy" width="400" height="400" itemprop="image">
+          </div>
+          <div class="team-card__body">
+            <h3 class="team-card__name" itemprop="name">Hiếu Trần</h3>
+            <p class="team-card__role" itemprop="jobTitle">Biên tập viên Pháp Lý & Tài Chính</p>
+            <p class="team-card__bio" itemprop="description">Cố vấn tài chính cá nhân tại Houston, Texas. Chuyên về đầu tư, bảo hiểm, thuế và lập kế hoạch nghỉ hưu cho cộng đồng người Việt. Cựu sinh viên UT Austin.</p>
+            <div class="team-card__social">
+              <a href="#" aria-label="LinkedIn của Hiếu Trần">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" aria-label="Twitter của Hiếu Trần">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card" itemscope itemtype="https://schema.org/Person">
+          <div class="team-card__img-wrap">
+            <img src="https://picsum.photos/seed/avatar-lan/400/400" alt="Lan Phạm" loading="lazy" width="400" height="400" itemprop="image">
+          </div>
+          <div class="team-card__body">
+            <h3 class="team-card__name" itemprop="name">Lan Phạm</h3>
+            <p class="team-card__role" itemprop="jobTitle">Biên tập viên Văn Hoá & Giáo Dục</p>
+            <p class="team-card__bio" itemprop="description">Giáo viên và nhà nghiên cứu văn hoá Việt Nam tại University of Washington. Viết về giáo dục song ngữ, nuôi dạy con trong văn hoá lai, và gìn giữ bản sắc xa nhà.</p>
+            <div class="team-card__social">
+              <a href="#" aria-label="LinkedIn của Lan Phạm">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="#" aria-label="Facebook của Lan Phạm">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Timeline ── -->
+  <section class="timeline-section section-smoke" aria-labelledby="timeline-title">
+    <div class="container">
+      <div style="text-align:center;">
+        <p class="eyebrow" style="margin-bottom:10px;">Hành trình</p>
+        <h2 class="section-title" id="timeline-title">Chúng Tôi Đã Đi Được Đến Đây</h2>
+      </div>
+      <div class="timeline" role="list">
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-item__side">
+            <div class="timeline-item__card">
+              <p class="timeline-item__year">Tháng 3 / 2022</p>
+              <h3 class="timeline-item__title">Bài Viết Đầu Tiên</h3>
+              <p class="timeline-item__desc">Mai Nguyễn đăng bài "Xin việc tại Mỹ trong tuần đầu tiên" lên một nhóm Facebook. Bài viết nhận 2.400 lượt chia sẻ trong 48 giờ.</p>
+            </div>
+          </div>
+          <div class="timeline-item__dot" aria-hidden="true"></div>
+          <div class="timeline-item__side"></div>
+        </div>
+
+        <div class="timeline-item timeline-item--right" role="listitem">
+          <div class="timeline-item__side">
+            <div class="timeline-item__card">
+              <p class="timeline-item__year">Tháng 8 / 2022</p>
+              <h3 class="timeline-item__title">Website Ra Đời</h3>
+              <p class="timeline-item__desc">Cội Nguồn VN chính thức ra mắt với 12 bài viết đầu tiên và 3 chuyên mục. Tháng đầu tiên đạt 800 lượt xem.</p>
+            </div>
+          </div>
+          <div class="timeline-item__dot" aria-hidden="true"></div>
+          <div class="timeline-item__side"></div>
+        </div>
+
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-item__side">
+            <div class="timeline-item__card">
+              <p class="timeline-item__year">Tháng 1 / 2023</p>
+              <h3 class="timeline-item__title">Mở Rộng Đội Ngũ</h3>
+              <p class="timeline-item__desc">Hiếu Trần và Lan Phạm gia nhập nhóm biên tập. Nội dung mở rộng sang tài chính, pháp lý, văn hoá và giáo dục. Độc giả tháng đạt 8.000.</p>
+            </div>
+          </div>
+          <div class="timeline-item__dot" aria-hidden="true"></div>
+          <div class="timeline-item__side"></div>
+        </div>
+
+        <div class="timeline-item timeline-item--right" role="listitem">
+          <div class="timeline-item__side">
+            <div class="timeline-item__card">
+              <p class="timeline-item__year">Tháng 6 / 2023</p>
+              <h3 class="timeline-item__title">10.000 Độc Giả</h3>
+              <p class="timeline-item__desc">Cột mốc 10.000 độc giả hàng tháng. Ra mắt newsletter "Tuần Này Ở Mỹ" với 3.200 người đăng ký trong tháng đầu.</p>
+            </div>
+          </div>
+          <div class="timeline-item__dot" aria-hidden="true"></div>
+          <div class="timeline-item__side"></div>
+        </div>
+
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-item__side">
+            <div class="timeline-item__card">
+              <p class="timeline-item__year">Năm 2024 – 2025</p>
+              <h3 class="timeline-item__title">Cộng Đồng 48.000+ Người</h3>
+              <p class="timeline-item__desc">Vượt mốc 48.000 độc giả mỗi tháng, 560+ bài viết, kênh YouTube 15.000 subscribers. Cội Nguồn VN trở thành nguồn thông tin tiếng Việt hàng đầu về cuộc sống tại Mỹ.</p>
+            </div>
+          </div>
+          <div class="timeline-item__dot" aria-hidden="true"></div>
+          <div class="timeline-item__side"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section class="contact-section section-white" id="lien-he" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div>
+            <p class="eyebrow" style="margin-bottom:10px;">Liên hệ</p>
+            <h2 class="contact-info__title" id="contact-title">Hãy Nói Chuyện Với Chúng Tôi</h2>
+            <p class="contact-info__desc" style="margin-top:12px;">Bạn có câu hỏi, muốn đóng góp bài viết, hay đơn giản chỉ muốn chia sẻ câu chuyện của mình — chúng tôi luôn sẵn sàng lắng nghe.</p>
+          </div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Email</div>
+                <div class="contact-item__value">hello@coinguonvn.com</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Trụ sở chính</div>
+                <div class="contact-item__value">San Jose, California, USA</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--gray-500); margin-bottom:12px;">Theo dõi chúng tôi</p>
+            <div class="contact-social">
+              <a href="https://facebook.com/coinguonvn" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--fb">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook
+              </a>
+              <a href="https://youtube.com/coinguonvn" target="_blank" rel="noopener noreferrer" class="social-btn social-btn--yt">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form-wrap">
+          <h3>Gửi Tin Nhắn</h3>
+          <p>Chúng tôi sẽ phản hồi trong vòng 1–2 ngày làm việc.</p>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="f-name">Họ và tên</label>
+                <input type="text" id="f-name" class="form-input" placeholder="Nguyễn Văn A" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-email">Email</label>
+                <input type="email" id="f-email" class="form-input" placeholder="email@example.com" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="f-subject">Chủ đề</label>
+              <input type="text" id="f-subject" class="form-input" placeholder="Tôi muốn đóng góp bài viết về...">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="f-message">Nội dung</label>
+              <textarea id="f-message" class="form-input" rows="4" placeholder="Nội dung tin nhắn của bạn..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit" id="formSubmit">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Gửi Tin Nhắn
+            </button>
+            <p class="form-note">Bằng cách gửi form này, bạn đồng ý với <a href="#" style="color:var(--red);">Chính sách bảo mật</a> của chúng tôi.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="container footer-top__grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#C0182A" stroke="#D4A017" stroke-width="2"/><path d="M24 8 L24 40 M14 16 Q24 8 34 16 M14 32 Q24 40 34 32" stroke="#D4A017" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#D4A017"/></svg>
+          <span class="footer-logo__name">Cội Nguồn VN</span>
+        </div>
+        <p class="footer-brand__desc">Cầu nối văn hóa, cộng đồng và cuộc sống của người Việt tại Hoa Kỳ. Chúng tôi kể những câu chuyện mang trái tim Việt Nam.</p>
+        <nav aria-label="Mạng xã hội footer">
+          <ul class="footer-social">
+            <li><a href="https://facebook.com/coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a></li>
+            <li><a href="https://youtube.com/coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></li>
+            <li><a href="https://tiktok.com/@coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="footer-nav" aria-label="Liên kết footer">
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Chủ Đề</h3>
+          <ul><li><a href="cuoc-song-dinh-cu.html">Cuộc Sống &amp; Định Cư</a></li><li><a href="giay-to-phap-ly.html">Giấy Tờ &amp; Pháp Lý</a></li><li><a href="tai-chinh.html">Tài Chính</a></li><li><a href="su-nghiep.html">Sự Nghiệp</a></li><li><a href="giao-duc.html">Giáo Dục</a></li><li><a href="suc-khoe.html">Sức Khoẻ</a></li><li><a href="van-hoa.html">Văn Hoá</a></li><li><a href="du-lich-am-thuc.html">Du Lịch &amp; Ẩm Thực</a></li></ul>
+        </div>
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Thông Tin</h3>
+          <ul>
+            <li><a href="ve-chung-toi.html">Về Chúng Tôi</a></li>
+            <li><a href="lien-he.html">Liên Hệ</a></li>
+            <li><a href="sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Pháp Lý</h3>
+          <ul>
+            <li><a href="chinh-sach-bao-mat.html">Chính Sách Bảo Mật</a></li>
+            <li><a href="dieu-khoan-su-dung.html">Điều Khoản Sử Dụng</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom__inner">
+      <p class="footer-bottom__copy">© 2026 Cội Nguồn VN. Bảo lưu mọi quyền. Làm với ❤️ từ cộng đồng người Việt tại Mỹ.</p>
+      <p class="footer-bottom__made">Nội dung trên trang web chỉ mang tính tham khảo, không thay thế tư vấn pháp lý hoặc y tế chuyên nghiệp.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Quay lại đầu trang" hidden>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script>
+/* ── Hamburger ── */
+(function () {
+  const btn    = document.getElementById('hamburgerBtn');
+  const drawer = document.getElementById('mobileDrawer');
+  if (!btn || !drawer) return;
+  btn.addEventListener('click', () => {
+    const open = drawer.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+    btn.setAttribute('aria-label', open ? 'Đóng menu' : 'Mở menu');
+    drawer.setAttribute('aria-hidden', !open);
+  });
+  drawer.addEventListener('click', e => { if (e.target === drawer) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  function close() {
+    drawer.classList.remove('open'); btn.classList.remove('open');
+    btn.setAttribute('aria-expanded', false); btn.setAttribute('aria-label', 'Mở menu');
+    drawer.setAttribute('aria-hidden', true);
+  }
+})();
+
+/* ── Footer year ── */
+document.getElementById('footerYear').textContent = new Date().getFullYear();
+
+/* ── Back to top ── */
+(function () {
+  const btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', () => { btn.hidden = window.scrollY < 300; }, { passive: true });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+})();
+
+/* ── Contact form ── */
+(function () {
+  const form = document.getElementById('contactForm');
+  const submitBtn = document.getElementById('formSubmit');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name    = document.getElementById('f-name').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const message = document.getElementById('f-message').value.trim();
+    if (!name || !email || !message) {
+      alert('Vui lòng điền đầy đủ họ tên, email và nội dung.');
+      return;
+    }
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Đang gửi...';
+    submitBtn.style.background = '#555';
+    setTimeout(() => {
+      submitBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Đã gửi thành công!';
+      submitBtn.style.background = '#2E7D32';
+      form.reset();
+      setTimeout(() => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Gửi Tin Nhắn';
+        submitBtn.style.background = '';
+      }, 4000);
+    }, 1200);
+  });
+})();
+
+/* ── Search redirect ── */
+(function () {
+  const input = document.querySelector('.search-wrap input');
+  const btn   = document.querySelector('.search-btn');
+  if (!input) return;
+  function go() {
+    const q = input.value.trim();
+    if (q) location.href = 'tim-kiem.html?q=' + encodeURIComponent(q);
+  }
+  btn.addEventListener('click', go);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chính Sách Bảo Mật – Cội Nguồn VN</title>
+<meta name="description" content="Chính sách bảo mật của Cội Nguồn VN — cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://coinguonvn.com/chinh-sach-bao-mat">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--red:#C0182A;--red-dk:#9e1020;--red-dark:#9e1020;--red-light:#F5E6E9;--gold:#D4A017;--ink:#1a1a1a;--mid:#777;--border:#e8e8e8;--white:#fff;--smoke:#f7f7f7;--gray-50:#f7f7f7;--gray-100:#F5F5F5;--gray-200:#e8e8e8;--gray-300:#E0E0E0;--gray-400:#BDBDBD;--gray-500:#9E9E9E;--gray-600:#757575;--gray-700:#616161;--font-body:'Be Vietnam Pro',sans-serif;--font-heading:'Playfair Display',serif;--shadow-sm:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);--shadow-md:0 10px 15px rgba(0,0,0,.07),0 4px 6px rgba(0,0,0,.05);--container:1200px;--gap:24px;--nav-h:46px}
+body{font-family:var(--font-body);background:#f0eeeb;min-height:100vh;color:var(--ink)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:var(--font-body);cursor:pointer}
+.container{max-width:var(--container);margin:0 auto;padding:0 var(--gap)}
+.c-inner{max-width:var(--container);margin:0 auto;padding:0 var(--gap)}
+.skip-link{position:absolute;top:-100%;left:16px;background:var(--red);color:#fff;padding:8px 16px;border-radius:8px;font-weight:600;z-index:9999;transition:top 200ms}
+.skip-link:focus{top:8px}
+
+/* HEADER */
+.site-header{background:var(--white);border-bottom:1px solid var(--border)}
+.site-header .c-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px;padding-bottom:14px}
+.logo{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.logo-emblem{width:50px;height:50px;border-radius:50%;background:var(--gold);border:2.5px solid var(--red);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo-emblem svg{width:28px;height:28px}
+.logo-text{display:flex;flex-direction:column;gap:6px;line-height:1}
+.logo-name{font-family:var(--font-heading);font-size:24px;font-weight:700;color:var(--red);letter-spacing:-0.01em}
+.logo-sub{font-size:9.5px;font-weight:600;letter-spacing:0.16em;color:var(--mid);text-transform:uppercase}
+.search-wrap{position:relative;width:300px;flex-shrink:0}
+.search-wrap input{width:100%;height:40px;border:1.5px solid var(--border);border-radius:20px;padding:0 44px 0 18px;font-size:13.5px;font-family:var(--font-body);color:var(--ink);background:var(--smoke);outline:none;transition:border-color .18s,box-shadow .18s}
+.search-wrap input::placeholder{color:#bbb}
+.search-wrap input:focus{border-color:var(--red);background:var(--white);box-shadow:0 0 0 3px rgba(192,24,42,0.08)}
+.search-btn{position:absolute;right:0;top:0;bottom:0;width:40px;background:var(--red);border:none;border-radius:0 20px 20px 0;cursor:pointer;display:flex;align-items:center;justify-content:center;color:white;transition:background .15s}
+.search-btn:hover{background:var(--red-dk)}
+.search-btn svg{width:15px;height:15px}
+
+/* NAVBAR */
+.navbar{background:var(--red);position:sticky;top:0;z-index:400;box-shadow:0 2px 8px rgba(192,24,42,0.18)}
+.navbar-inner{max-width:var(--container);margin:0 auto;padding:0 var(--gap);display:flex;align-items:center}
+.nav-link{display:flex;align-items:center;height:var(--nav-h);padding:0 15px;font-size:13.5px;font-weight:700;color:rgba(255,255,255,0.9);text-decoration:none;letter-spacing:0.04em;text-transform:uppercase;white-space:nowrap;transition:background .15s,color .15s;position:relative}
+.nav-link::after{content:'';position:absolute;bottom:0;left:50%;right:50%;height:3px;background:var(--gold);transition:left .2s,right .2s;border-radius:2px 2px 0 0}
+.nav-link:hover{color:#fff;background:rgba(0,0,0,0.12)}
+.nav-link:hover::after{left:9px;right:9px}
+.nav-link--home{padding:0 12px}
+.nav-link--home svg{width:19px;height:19px;fill:currentColor}
+.nav-dot{width:3px;height:3px;border-radius:50%;background:rgba(255,255,255,0.3);flex-shrink:0}
+.navbar-mobile-bar{display:none;max-width:var(--container);margin:0 auto;padding:0 var(--gap);min-height:var(--nav-h);align-items:center;gap:12px}
+.hamburger{display:none;background:none;border:none;cursor:pointer;padding:10px;flex-direction:column;gap:5px;align-items:flex-end;flex-shrink:0}
+.hamburger span{display:block;height:2px;background:white;border-radius:2px;transition:transform .25s,opacity .2s,width .2s}
+.hamburger span:nth-child(1){width:22px}.hamburger span:nth-child(2){width:16px}.hamburger span:nth-child(3){width:22px}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);width:22px}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);width:22px}
+.mobile-drawer{display:none;position:absolute;left:0;right:0;top:100%;min-height:100vh;background:rgba(0,0,0,0.45);z-index:300;opacity:0;pointer-events:none;transition:opacity .22s}
+.mobile-drawer.open{opacity:1;pointer-events:all}
+.mobile-panel{background:var(--white);border-top:5px solid white;transform:translateY(-8px);transition:transform .28s cubic-bezier(.4,0,.2,1);border-bottom:3px solid var(--red);box-shadow:0 8px 32px rgba(0,0,0,0.18)}
+.mobile-drawer.open .mobile-panel{transform:translateY(0)}
+.mobile-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:12px 16px 16px}
+.mobile-nav-link{display:flex;align-items:center;justify-content:center;gap:9px;padding:11px 14px;border-radius:8px;background:var(--smoke);font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;text-transform:uppercase;transition:background .12s,color .12s}
+.mobile-nav-link:hover{background:var(--red);color:white}
+.mobile-nav-link--home{grid-column:1/-1;gap:8px}
+.home-svg{width:16px;height:16px;fill:currentColor;flex-shrink:0}
+.m-icon{font-size:15px}
+
+/* PAGE HEADER */
+.page-header{background:var(--white);border-bottom:1px solid var(--gray-200);padding:36px 0 28px}
+.page-header__eyebrow{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--red);margin-bottom:8px}
+.page-header__title{font-family:var(--font-heading);font-size:2.25rem;color:var(--ink);margin-bottom:10px}
+.page-header__meta{font-size:13px;color:var(--gray-500)}
+.breadcrumb-bar{padding:14px 0;border-bottom:1px solid var(--gray-200);background:var(--white)}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--gray-500);flex-wrap:wrap}
+.breadcrumb a{color:var(--gray-600);transition:color 200ms}
+.breadcrumb a:hover{color:var(--red)}
+.breadcrumb__sep{color:var(--gray-300)}
+
+/* LAYOUT */
+.page-wrapper{padding:48px 0 72px}
+.legal-layout{display:grid;grid-template-columns:240px 1fr;gap:48px;align-items:start}
+
+/* TOC */
+.toc{position:sticky;top:calc(var(--nav-h)+20px);background:var(--white);border-radius:12px;padding:20px;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200)}
+.toc__title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-500);margin-bottom:12px}
+.toc__list{display:flex;flex-direction:column;gap:4px}
+.toc__link{display:block;font-size:13px;color:var(--gray-600);padding:5px 8px;border-radius:6px;transition:background .15s,color .15s;border-left:2px solid transparent}
+.toc__link:hover{background:var(--red-light);color:var(--red);border-left-color:var(--red)}
+.toc__link.active{background:var(--red-light);color:var(--red);font-weight:600;border-left-color:var(--red)}
+
+/* CONTENT */
+.legal-content{background:var(--white);border-radius:16px;padding:40px 44px;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200)}
+.legal-content h2{font-family:var(--font-heading);font-size:1.375rem;color:var(--ink);margin:36px 0 14px;padding-top:8px}
+.legal-content h2:first-child{margin-top:0}
+.legal-content h3{font-size:1rem;font-weight:700;color:var(--ink);margin:20px 0 8px}
+.legal-content p{font-size:14.5px;line-height:1.8;color:var(--gray-700);margin-bottom:12px}
+.legal-content ul{margin:8px 0 14px 20px;list-style:disc;display:flex;flex-direction:column;gap:6px}
+.legal-content ul li{font-size:14.5px;line-height:1.7;color:var(--gray-700)}
+.legal-content a{color:var(--red);text-decoration:underline}
+.legal-content strong{color:var(--ink)}
+.legal-divider{border:none;border-top:1px solid var(--gray-200);margin:32px 0}
+.highlight-box{background:var(--gray-50);border-left:3px solid var(--red);border-radius:0 8px 8px 0;padding:16px 20px;margin:16px 0}
+.highlight-box p{margin:0;font-size:14px;color:var(--gray-700)}
+
+/* FOOTER */
+.site-footer{background:#111827;color:var(--gray-300)}
+.footer-top{padding:56px 0}
+.footer-top__grid{display:grid;grid-template-columns:280px 1fr;gap:48px}
+.footer-logo{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.footer-logo__name{font-family:var(--font-heading);font-size:1.5rem;font-weight:700;color:#fff}
+.footer-brand__desc{font-size:14px;line-height:1.7;color:var(--gray-400);margin-bottom:20px}
+.footer-social{display:flex;gap:12px}
+.footer-social a{width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);border-radius:8px;color:var(--gray-400);transition:background 200ms,color 200ms}
+.footer-social a:hover{background:var(--red);color:#fff}
+.footer-nav{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
+.footer-nav__title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#fff;margin-bottom:16px}
+.footer-nav ul{display:flex;flex-direction:column;gap:8px}
+.footer-nav a{font-size:14px;color:var(--gray-400);transition:color 200ms}
+.footer-nav a:hover{color:var(--gold)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:20px 0;text-align:center}
+.footer-bottom__copy{font-size:12px;color:var(--gray-500)}
+.back-to-top{position:fixed;bottom:24px;right:24px;width:44px;height:44px;background:var(--red);color:#fff;border-radius:50%;border:none;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);cursor:pointer;transition:background 200ms,transform 200ms;z-index:500}
+.back-to-top:hover{background:var(--red-dark);transform:translateY(-2px)}
+.back-to-top[hidden]{display:none}
+
+@media(max-width:1200px){.navbar-inner{display:none}.navbar-mobile-bar{display:flex}.hamburger{display:flex}.mobile-drawer{display:block}.m-icon{display:none}.mobile-nav-link{justify-content:center}}
+@media(max-width:1024px){.legal-layout{grid-template-columns:1fr}.toc{position:static;margin-bottom:0}.footer-top__grid{grid-template-columns:1fr;gap:32px}.footer-nav{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:768px){.legal-content{padding:24px 20px}.page-header__title{font-size:1.75rem}.search-wrap{width:220px}.footer-nav{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.logo-sub{display:none}.site-header .c-inner{flex-wrap:wrap;padding-bottom:12px;gap:8px 0}.search-wrap{width:100%;flex-shrink:1}}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Bỏ qua điều hướng</a>
+<header class="site-header">
+  <div class="c-inner">
+    <a href="index.html" class="logo" aria-label="Cội Nguồn VN"><div class="logo-emblem"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" fill="#C0182A" stroke="#fff" stroke-width="1"/><ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(0 16 16)"/><ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(90 16 16)"/><ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(180 16 16)"/><ellipse cx="16" cy="8" rx="2.2" ry="4.5" fill="rgba(255,255,255,0.9)" transform="rotate(270 16 16)"/><circle cx="16" cy="16" r="3.5" fill="#D4A017"/><circle cx="16" cy="16" r="2" fill="#C0182A"/></svg></div><div class="logo-text"><span class="logo-name">Cội Nguồn VN</span><span class="logo-sub">Cộng đồng Người Việt tại Mỹ</span></div></a>
+    <form class="search-wrap" role="search" action="tim-kiem.html" method="get"><input type="search" name="q" placeholder="Tìm kiếm bài viết..." aria-label="Tìm kiếm" autocomplete="off"><button type="submit" class="search-btn" aria-label="Tìm kiếm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></form>
+  </div>
+</header>
+<nav class="navbar" aria-label="Menu chính">
+  <div class="navbar-mobile-bar"><button class="hamburger" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false"><span></span><span></span><span></span></button></div>
+  <div class="navbar-inner"><a href="index.html" class="nav-link nav-link--home" aria-label="Trang chủ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg></a><span class="nav-dot"></span><a href="cuoc-song-dinh-cu.html" class="nav-link">Cuộc Sống &amp; Định Cư</a><span class="nav-dot"></span><a href="giay-to-phap-ly.html" class="nav-link">Giấy Tờ &amp; Pháp Lý</a><span class="nav-dot"></span><a href="tai-chinh.html" class="nav-link">Tài Chính</a><span class="nav-dot"></span><a href="su-nghiep.html" class="nav-link">Sự Nghiệp</a><span class="nav-dot"></span><a href="giao-duc.html" class="nav-link">Giáo Dục</a><span class="nav-dot"></span><a href="suc-khoe.html" class="nav-link">Sức Khoẻ</a><span class="nav-dot"></span><a href="van-hoa.html" class="nav-link">Văn Hoá</a><span class="nav-dot"></span><a href="du-lich-am-thuc.html" class="nav-link">Du Lịch &amp; Ẩm Thực</a></div>
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true"><div class="mobile-panel"><div class="mobile-grid"><a href="index.html" class="mobile-nav-link mobile-nav-link--home"><svg class="home-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg>Trang Chủ</a><a href="cuoc-song-dinh-cu.html" class="mobile-nav-link"><span class="m-icon">🏘️</span>Định Cư</a><a href="giay-to-phap-ly.html" class="mobile-nav-link"><span class="m-icon">📄</span>Pháp Lý</a><a href="tai-chinh.html" class="mobile-nav-link"><span class="m-icon">💰</span>Tài Chính</a><a href="su-nghiep.html" class="mobile-nav-link"><span class="m-icon">💼</span>Sự Nghiệp</a><a href="giao-duc.html" class="mobile-nav-link"><span class="m-icon">🎓</span>Giáo Dục</a><a href="suc-khoe.html" class="mobile-nav-link"><span class="m-icon">❤️</span>Sức Khoẻ</a><a href="van-hoa.html" class="mobile-nav-link"><span class="m-icon">🌸</span>Văn Hoá</a><a href="du-lich-am-thuc.html" class="mobile-nav-link"><span class="m-icon">🍜</span>Ẩm Thực</a></div></div></div>
+</nav>
+
+<main id="main-content" tabindex="-1">
+  <div class="page-header"><div class="container"><p class="page-header__eyebrow">Pháp lý</p><h1 class="page-header__title">Chính Sách Bảo Mật</h1><p class="page-header__meta">Cập nhật lần cuối: 01 tháng 01, 2025 &nbsp;·&nbsp; Có hiệu lực từ: 01 tháng 01, 2025</p></div></div>
+  <div class="breadcrumb-bar"><div class="container"><nav class="breadcrumb" aria-label="Đường dẫn"><a href="index.html">Trang Chủ</a><span class="breadcrumb__sep">›</span><span aria-current="page">Chính Sách Bảo Mật</span></nav></div></div>
+
+  <div class="page-wrapper">
+    <div class="container">
+      <div class="legal-layout">
+        <aside>
+          <nav class="toc" aria-label="Mục lục">
+            <p class="toc__title">Mục lục</p>
+            <ul class="toc__list">
+              <li><a href="#thu-thap" class="toc__link">1. Thông tin chúng tôi thu thập</a></li>
+              <li><a href="#su-dung" class="toc__link">2. Cách sử dụng thông tin</a></li>
+              <li><a href="#chia-se" class="toc__link">3. Chia sẻ thông tin</a></li>
+              <li><a href="#cookie" class="toc__link">4. Cookie & công nghệ theo dõi</a></li>
+              <li><a href="#bao-mat" class="toc__link">5. Bảo mật thông tin</a></li>
+              <li><a href="#quyen" class="toc__link">6. Quyền của bạn</a></li>
+              <li><a href="#tre-em" class="toc__link">7. Trẻ em</a></li>
+              <li><a href="#lien-ket" class="toc__link">8. Liên kết bên ngoài</a></li>
+              <li><a href="#cap-nhat" class="toc__link">9. Thay đổi chính sách</a></li>
+              <li><a href="#lien-he-cs" class="toc__link">10. Liên hệ</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <article class="legal-content">
+          <div class="highlight-box"><p>Cội Nguồn VN cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích rõ cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng website.</p></div>
+
+          <h2 id="thu-thap">1. Thông Tin Chúng Tôi Thu Thập</h2>
+          <h3>Thông tin bạn cung cấp trực tiếp</h3>
+          <ul>
+            <li>Họ tên, địa chỉ email khi đăng ký newsletter hoặc gửi form liên hệ</li>
+            <li>Nội dung bình luận và phản hồi bạn để lại trên trang</li>
+            <li>Thông tin liên hệ khi bạn gửi câu hỏi hoặc đề xuất bài viết</li>
+          </ul>
+          <h3>Thông tin thu thập tự động</h3>
+          <ul>
+            <li>Địa chỉ IP, loại trình duyệt, hệ điều hành</li>
+            <li>Trang bạn truy cập, thời gian ở lại, nguồn truy cập</li>
+            <li>Dữ liệu cookie và công nghệ tương tự (xem mục 4)</li>
+          </ul>
+
+          <hr class="legal-divider">
+          <h2 id="su-dung">2. Cách Sử Dụng Thông Tin</h2>
+          <p>Chúng tôi sử dụng thông tin thu thập để:</p>
+          <ul>
+            <li>Vận hành và cải thiện website, cá nhân hóa trải nghiệm đọc</li>
+            <li>Gửi newsletter và nội dung bạn đã đăng ký nhận (có thể hủy đăng ký bất kỳ lúc nào)</li>
+            <li>Phản hồi câu hỏi và yêu cầu hỗ trợ</li>
+            <li>Phân tích lưu lượng truy cập để hiểu độc giả và cải thiện nội dung</li>
+            <li>Phát hiện và ngăn chặn gian lận, lạm dụng</li>
+          </ul>
+          <p><strong>Cơ sở pháp lý:</strong> Việc xử lý dữ liệu dựa trên sự đồng ý của bạn (đăng ký newsletter), lợi ích hợp pháp của chúng tôi (phân tích website), hoặc thực hiện hợp đồng (cung cấp dịch vụ bạn yêu cầu).</p>
+
+          <hr class="legal-divider">
+          <h2 id="chia-se">3. Chia Sẻ Thông Tin</h2>
+          <p>Chúng tôi <strong>không bán thông tin cá nhân của bạn</strong> cho bất kỳ bên thứ ba nào. Chúng tôi có thể chia sẻ thông tin trong các trường hợp sau:</p>
+          <ul>
+            <li><strong>Nhà cung cấp dịch vụ:</strong> Các đối tác kỹ thuật hỗ trợ vận hành website (hosting, email, phân tích), được ràng buộc bởi thỏa thuận bảo mật</li>
+            <li><strong>Yêu cầu pháp lý:</strong> Khi được yêu cầu bởi cơ quan có thẩm quyền theo quy định pháp luật</li>
+            <li><strong>Bảo vệ quyền lợi:</strong> Khi cần thiết để bảo vệ an toàn của người dùng hoặc quyền lợi hợp pháp của chúng tôi</li>
+          </ul>
+
+          <hr class="legal-divider">
+          <h2 id="cookie">4. Cookie & Công Nghệ Theo Dõi</h2>
+          <p>Chúng tôi sử dụng cookie và công nghệ tương tự để cải thiện trải nghiệm của bạn. Xem <a href="chinh-sach-cookie.html">Chính Sách Cookie</a> để biết chi tiết về loại cookie chúng tôi sử dụng và cách kiểm soát chúng.</p>
+          <p>Chúng tôi sử dụng <strong>Google Analytics</strong> để phân tích lưu lượng truy cập ẩn danh. Bạn có thể từ chối bằng cách cài đặt <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.</p>
+
+          <hr class="legal-divider">
+          <h2 id="bao-mat">5. Bảo Mật Thông Tin</h2>
+          <p>Chúng tôi áp dụng các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ thông tin của bạn, bao gồm:</p>
+          <ul>
+            <li>Mã hóa HTTPS trên toàn bộ website</li>
+            <li>Giới hạn quyền truy cập dữ liệu nội bộ theo nguyên tắc cần biết</li>
+            <li>Đánh giá định kỳ các quy trình bảo mật</li>
+          </ul>
+          <p>Tuy nhiên, không có phương thức truyền tải qua Internet nào là 100% an toàn. Chúng tôi không thể đảm bảo tuyệt đối an toàn nhưng cam kết thông báo kịp thời nếu xảy ra sự cố bảo mật ảnh hưởng đến bạn.</p>
+
+          <hr class="legal-divider">
+          <h2 id="quyen">6. Quyền Của Bạn</h2>
+          <p>Tùy theo vị trí địa lý, bạn có thể có các quyền sau đối với dữ liệu cá nhân của mình:</p>
+          <ul>
+            <li><strong>Quyền truy cập:</strong> Yêu cầu bản sao thông tin chúng tôi đang lưu về bạn</li>
+            <li><strong>Quyền chỉnh sửa:</strong> Yêu cầu cập nhật thông tin không chính xác</li>
+            <li><strong>Quyền xóa:</strong> Yêu cầu xóa thông tin cá nhân của bạn</li>
+            <li><strong>Quyền hạn chế xử lý:</strong> Yêu cầu chúng tôi tạm dừng xử lý dữ liệu của bạn</li>
+            <li><strong>Quyền phản đối:</strong> Phản đối việc xử lý dựa trên lợi ích hợp pháp</li>
+            <li><strong>Quyền hủy đăng ký:</strong> Hủy nhận newsletter bất kỳ lúc nào qua link trong email</li>
+          </ul>
+          <p>Để thực hiện các quyền trên, liên hệ: <a href="mailto:privacy@coinguonvn.com">privacy@coinguonvn.com</a>. Chúng tôi sẽ phản hồi trong vòng 30 ngày.</p>
+
+          <hr class="legal-divider">
+          <h2 id="tre-em">7. Trẻ Em</h2>
+          <p>Website không hướng đến đối tượng dưới 13 tuổi và chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Nếu bạn tin rằng chúng tôi vô tình thu thập thông tin của trẻ em, vui lòng liên hệ để chúng tôi xóa ngay lập tức.</p>
+
+          <hr class="legal-divider">
+          <h2 id="lien-ket">8. Liên Kết Bên Ngoài</h2>
+          <p>Website có thể chứa liên kết đến các trang web bên ngoài. Chúng tôi không chịu trách nhiệm về chính sách bảo mật của các trang đó. Khuyến nghị bạn đọc chính sách bảo mật của mỗi trang trước khi cung cấp thông tin cá nhân.</p>
+
+          <hr class="legal-divider">
+          <h2 id="cap-nhat">9. Thay Đổi Chính Sách</h2>
+          <p>Chúng tôi có thể cập nhật chính sách này theo thời gian. Khi có thay đổi đáng kể, chúng tôi sẽ thông báo qua email (nếu bạn đã đăng ký) hoặc thông báo nổi bật trên website. Ngày "Cập nhật lần cuối" ở đầu trang sẽ được thay đổi tương ứng.</p>
+          <p>Việc tiếp tục sử dụng website sau khi chính sách được cập nhật đồng nghĩa với việc bạn chấp nhận những thay đổi đó.</p>
+
+          <hr class="legal-divider">
+          <h2 id="lien-he-cs">10. Liên Hệ</h2>
+          <p>Nếu có câu hỏi về chính sách bảo mật này hoặc muốn thực hiện quyền của mình, vui lòng liên hệ:</p>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:privacy@coinguonvn.com">privacy@coinguonvn.com</a></li>
+            <li><strong>Form liên hệ:</strong> <a href="lien-he.html">coinguonvn.com/lien-he</a></li>
+            <li><strong>Địa chỉ:</strong> San Jose, California, USA</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="container footer-top__grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="40" height="40" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#C0182A" stroke="#D4A017" stroke-width="2"/><path d="M24 8 L24 40 M14 16 Q24 8 34 16 M14 32 Q24 40 34 32" stroke="#D4A017" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#D4A017"/></svg>
+          <span class="footer-logo__name">Cội Nguồn VN</span>
+        </div>
+        <p class="footer-brand__desc">Cầu nối văn hóa, cộng đồng và cuộc sống của người Việt tại Hoa Kỳ. Chúng tôi kể những câu chuyện mang trái tim Việt Nam.</p>
+        <nav aria-label="Mạng xã hội footer">
+          <ul class="footer-social">
+            <li><a href="https://facebook.com/coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a></li>
+            <li><a href="https://youtube.com/coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></li>
+            <li><a href="https://tiktok.com/@coinguonvn" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="footer-nav" aria-label="Liên kết footer">
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Chủ Đề</h3>
+          <ul><li><a href="cuoc-song-dinh-cu.html">Cuộc Sống &amp; Định Cư</a></li><li><a href="giay-to-phap-ly.html">Giấy Tờ &amp; Pháp Lý</a></li><li><a href="tai-chinh.html">Tài Chính</a></li><li><a href="su-nghiep.html">Sự Nghiệp</a></li><li><a href="giao-duc.html">Giáo Dục</a></li><li><a href="suc-khoe.html">Sức Khoẻ</a></li><li><a href="van-hoa.html">Văn Hoá</a></li><li><a href="du-lich-am-thuc.html">Du Lịch &amp; Ẩm Thực</a></li></ul>
+        </div>
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Thông Tin</h3>
+          <ul>
+            <li><a href="ve-chung-toi.html">Về Chúng Tôi</a></li>
+            <li><a href="lien-he.html">Liên Hệ</a></li>
+            <li><a href="sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav__col">
+          <h3 class="footer-nav__title">Pháp Lý</h3>
+          <ul>
+            <li><a href="chinh-sach-bao-mat.html">Chính Sách Bảo Mật</a></li>
+            <li><a href="dieu-khoan-su-dung.html">Điều Khoản Sử Dụng</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom__inner">
+      <p class="footer-bottom__copy">© 2026 Cội Nguồn VN. Bảo lưu mọi quyền. Làm với ❤️ từ cộng đồng người Việt tại Mỹ.</p>
+      <p class="footer-bottom__made">Nội dung trên trang web chỉ mang tính tham khảo, không thay thế tư vấn pháp lý hoặc y tế chuyên nghiệp.</p>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="Quay lại đầu trang" hidden><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg></button>
+<script>
+(function(){const btn=document.getElementById('hamburgerBtn'),drawer=document.getElementById('mobileDrawer');if(!btn||!drawer)return;btn.addEventListener('click',()=>{const open=drawer.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);drawer.setAttribute('aria-hidden',!open)});drawer.addEventListener('click',e=>{if(e.target===drawer)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});function close(){drawer.classList.remove('open');btn.classList.remove('open');btn.setAttribute('aria-expanded',false);drawer.setAttribute('aria-hidden',true)}})();
+document.getElementById('footerYear').textContent=new Date().getFullYear();
+(function(){const btn=document.getElementById('backToTop');window.addEventListener('scroll',()=>{btn.hidden=window.scrollY<300},{passive:true});btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}))})();
+(function(){const si=document.getElementById('hs');if(!si)return;si.addEventListener('keydown',e=>{if(e.key==='Enter'&&si.value.trim())location.href='tim-kiem.html?q='+encodeURIComponent(si.value.trim())});document.querySelector('.search-btn').addEventListener('click',()=>{if(si.value.trim())location.href='tim-kiem.html?q='+encodeURIComponent(si.value.trim())})})();
+(function(){const links=document.querySelectorAll('.toc__link');const headings=document.querySelectorAll('.legal-content h2[id]');if(!links.length)return;const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.remove('active'));const a=document.querySelector('.toc__link[href="#'+e.target.id+'"]');if(a)a.classList.add('active')}})},{rootMargin:'-20% 0px -70% 0px'});headings.forEach(h=>obs.observe(h))})();
+</script>
+</body>
+</html>

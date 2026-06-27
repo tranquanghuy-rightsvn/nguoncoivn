@@ -1,0 +1,21 @@
+{
+  "name": "Cội Nguồn VN",
+  "description": "Cầu nối văn hóa, cộng đồng và cuộc sống của người Việt tại Hoa Kỳ. Chúng tôi kể những câu chuyện mang trái tim Việt Nam.",
+  "categories": [
+    {"id": 1, "name": "Cuộc Sống & Định Cư", "url": "cuoc-song-dinh-cu.html"},
+    {"id": 2, "name": "Giấy Tờ & Pháp Lý", "url": "giay-to-phap-ly.html"},
+    {"id": 3, "name": "Tài Chính", "url": "tai-chinh.html"},
+    {"id": 4, "name": "Sự Nghiệp", "url": "su-nghiep.html"},
+    {"id": 5, "name": "Giáo Dục", "url": "giao-duc.html"},
+    {"id": 6, "name": "Sức Khoẻ", "url": "suc-khoe.html"},
+    {"id": 7, "name": "Văn Hoá", "url": "van-hoa.html"},
+    {"id": 8, "name": "Du Lịch & Ẩm Thực", "url": "du-lich-am-thuc.html"}
+  ],
+  "template": "coinguonvn",
+  "google_adsense": "",
+  "domain_url": "https://coinguonvn.com/",
+  "google_analytics_code": "",
+  "logo": "html/images/logo.png",
+  "thumbnail": "html/images/thumb.webp",
+  "lang": "vi"
+}
