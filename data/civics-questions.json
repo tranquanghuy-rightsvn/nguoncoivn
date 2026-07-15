@@ -1,0 +1,3565 @@
+{
+  "meta": {
+    "source": "USCIS Civics Test (2008 version, 100 questions) — https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test",
+    "note_vi": "Bộ câu hỏi có thể được USCIS cập nhật theo thời gian. Vui lòng đối chiếu với trang chính thức USCIS.gov trước khi thi để có đáp án mới nhất, đặc biệt với các câu có 'dynamic' hoặc 'personalized' = true.",
+    "total": 100,
+    "pass_threshold": 6,
+    "quiz_size": 10
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is the supreme law of the land?",
+      "vi": "Luật tối cao của đất nước là gì?",
+      "answers": [
+        {
+          "en": "the Constitution",
+          "vi": "Hiến pháp"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Declaration of Independence",
+          "vi": "Tuyên Ngôn Độc Lập"
+        },
+        {
+          "en": "the Bill of Rights",
+          "vi": "Tuyên Ngôn Nhân Quyền"
+        },
+        {
+          "en": "Federal law passed by Congress",
+          "vi": "Luật liên bang do Quốc hội ban hành"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 2,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What does the Constitution do?",
+      "vi": "Hiến pháp có chức năng gì?",
+      "answers": [
+        {
+          "en": "sets up the government",
+          "vi": "thiết lập chính quyền"
+        },
+        {
+          "en": "defines the government",
+          "vi": "quy định cấu trúc chính quyền"
+        },
+        {
+          "en": "protects basic rights of Americans",
+          "vi": "bảo vệ các quyền cơ bản của người Mỹ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "declares independence from Great Britain",
+          "vi": "tuyên bố độc lập khỏi Anh Quốc"
+        },
+        {
+          "en": "creates political parties",
+          "vi": "thành lập các đảng phái chính trị"
+        },
+        {
+          "en": "establishes state boundaries",
+          "vi": "thiết lập ranh giới các bang"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 3,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "vi": "Ý tưởng về quyền tự quản nằm trong ba từ đầu tiên của Hiến pháp. Đó là những từ nào?",
+      "answers": [
+        {
+          "en": "We the People",
+          "vi": "“We the People” (Chúng tôi, Nhân dân)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "In God We Trust",
+          "vi": "“In God We Trust”"
+        },
+        {
+          "en": "Life, Liberty, Happiness",
+          "vi": "“Life, Liberty, Happiness”"
+        },
+        {
+          "en": "United We Stand",
+          "vi": "“United We Stand”"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 4,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is an amendment?",
+      "vi": "Tu chính án (amendment) là gì?",
+      "answers": [
+        {
+          "en": "a change (to the Constitution)",
+          "vi": "một thay đổi (đối với Hiến pháp)"
+        },
+        {
+          "en": "an addition (to the Constitution)",
+          "vi": "một điều bổ sung (cho Hiến pháp)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "a new law passed by Congress",
+          "vi": "một đạo luật mới do Quốc hội thông qua"
+        },
+        {
+          "en": "a Supreme Court ruling",
+          "vi": "một phán quyết của Tối cao Pháp viện"
+        },
+        {
+          "en": "a presidential executive order",
+          "vi": "một sắc lệnh hành pháp của Tổng thống"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 5,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What do we call the first ten amendments to the Constitution?",
+      "vi": "Mười tu chính án đầu tiên của Hiến pháp được gọi là gì?",
+      "answers": [
+        {
+          "en": "the Bill of Rights",
+          "vi": "Tuyên Ngôn Nhân Quyền (Bill of Rights)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Declaration of Independence",
+          "vi": "Tuyên Ngôn Độc Lập"
+        },
+        {
+          "en": "the Federalist Papers",
+          "vi": "Federalist Papers"
+        },
+        {
+          "en": "the Emancipation Proclamation",
+          "vi": "Tuyên Ngôn Giải Phóng Nô Lệ"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 6,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is one right or freedom from the First Amendment?",
+      "vi": "Nêu một quyền hoặc quyền tự do trong Tu chính án thứ Nhất.",
+      "answers": [
+        {
+          "en": "speech",
+          "vi": "tự do ngôn luận"
+        },
+        {
+          "en": "religion",
+          "vi": "tự do tôn giáo"
+        },
+        {
+          "en": "assembly",
+          "vi": "tự do hội họp"
+        },
+        {
+          "en": "press",
+          "vi": "tự do báo chí"
+        },
+        {
+          "en": "petition the government",
+          "vi": "quyền kiến nghị chính phủ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the right to bear arms",
+          "vi": "quyền sở hữu súng"
+        },
+        {
+          "en": "the right to a fair trial",
+          "vi": "quyền được xét xử công bằng"
+        },
+        {
+          "en": "the right to vote",
+          "vi": "quyền bầu cử"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 7,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "How many amendments does the Constitution have?",
+      "vi": "Hiến pháp có bao nhiêu tu chính án?",
+      "answers": [
+        {
+          "en": "twenty-seven (27)",
+          "vi": "hai mươi bảy (27)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "ten (10)",
+          "vi": "mười (10)"
+        },
+        {
+          "en": "twenty-one (21)",
+          "vi": "hai mươi mốt (21)"
+        },
+        {
+          "en": "fifty (50)",
+          "vi": "năm mươi (50)"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 8,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What did the Declaration of Independence do?",
+      "vi": "Tuyên Ngôn Độc Lập đã làm gì?",
+      "answers": [
+        {
+          "en": "announced our independence (from Great Britain)",
+          "vi": "tuyên bố nền độc lập (khỏi Anh Quốc)"
+        },
+        {
+          "en": "declared our independence (from Great Britain)",
+          "vi": "tuyên bố độc lập (khỏi Anh Quốc)"
+        },
+        {
+          "en": "said that the United States is free (from Great Britain)",
+          "vi": "khẳng định Hoa Kỳ được tự do (khỏi Anh Quốc)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "created the Constitution",
+          "vi": "soạn thảo Hiến pháp"
+        },
+        {
+          "en": "ended slavery in the United States",
+          "vi": "chấm dứt chế độ nô lệ tại Hoa Kỳ"
+        },
+        {
+          "en": "established the Supreme Court",
+          "vi": "thành lập Tối cao Pháp viện"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 9,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What are two rights in the Declaration of Independence?",
+      "vi": "Nêu hai quyền được nói đến trong Tuyên Ngôn Độc Lập.",
+      "answers": [
+        {
+          "en": "life",
+          "vi": "quyền sống"
+        },
+        {
+          "en": "liberty",
+          "vi": "quyền tự do"
+        },
+        {
+          "en": "the pursuit of happiness",
+          "vi": "quyền mưu cầu hạnh phúc"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the right to vote",
+          "vi": "quyền bầu cử"
+        },
+        {
+          "en": "freedom of the press",
+          "vi": "tự do báo chí"
+        },
+        {
+          "en": "the right to bear arms",
+          "vi": "quyền sở hữu súng"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 10,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is freedom of religion?",
+      "vi": "Tự do tôn giáo là gì?",
+      "answers": [
+        {
+          "en": "You can practice any religion, or not practice a religion.",
+          "vi": "Bạn có thể theo bất kỳ tôn giáo nào, hoặc không theo tôn giáo nào."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "The government must have an official religion.",
+          "vi": "Chính phủ phải theo một tôn giáo chính thức."
+        },
+        {
+          "en": "You can only practice Christianity.",
+          "vi": "Bạn chỉ được phép theo đạo Cơ đốc."
+        },
+        {
+          "en": "All citizens must attend religious services.",
+          "vi": "Mọi công dân đều phải tham dự lễ tôn giáo."
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 11,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is the economic system in the United States?",
+      "vi": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+      "answers": [
+        {
+          "en": "capitalist economy",
+          "vi": "kinh tế tư bản"
+        },
+        {
+          "en": "market economy",
+          "vi": "kinh tế thị trường"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "socialist economy",
+          "vi": "kinh tế xã hội chủ nghĩa"
+        },
+        {
+          "en": "communist economy",
+          "vi": "kinh tế cộng sản"
+        },
+        {
+          "en": "centrally planned economy",
+          "vi": "kinh tế kế hoạch hóa tập trung"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 12,
+      "category": "government",
+      "section": "Nguyên Tắc Dân Chủ Hoa Kỳ",
+      "en": "What is the “rule of law”?",
+      "vi": "“Nguyên tắc thượng tôn pháp luật” (rule of law) nghĩa là gì?",
+      "answers": [
+        {
+          "en": "Everyone must follow the law.",
+          "vi": "Mọi người đều phải tuân theo pháp luật."
+        },
+        {
+          "en": "Leaders must obey the law.",
+          "vi": "Các nhà lãnh đạo phải tuân theo pháp luật."
+        },
+        {
+          "en": "Government must obey the law.",
+          "vi": "Chính phủ phải tuân theo pháp luật."
+        },
+        {
+          "en": "No one is above the law.",
+          "vi": "Không ai đứng trên pháp luật."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Only citizens must follow the law.",
+          "vi": "Chỉ công dân mới phải tuân theo pháp luật."
+        },
+        {
+          "en": "The President can change laws at any time.",
+          "vi": "Tổng thống có thể thay đổi luật bất cứ lúc nào."
+        },
+        {
+          "en": "Congress is above the law.",
+          "vi": "Quốc hội đứng trên pháp luật."
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 13,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Name one branch or part of the government.",
+      "vi": "Nêu tên một nhánh hoặc bộ phận của chính quyền.",
+      "answers": [
+        {
+          "en": "Congress, legislative",
+          "vi": "Quốc hội (lập pháp)"
+        },
+        {
+          "en": "President, executive",
+          "vi": "Tổng thống (hành pháp)"
+        },
+        {
+          "en": "the courts, judicial",
+          "vi": "tòa án (tư pháp)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the states",
+          "vi": "các bang"
+        },
+        {
+          "en": "political parties",
+          "vi": "các đảng phái chính trị"
+        },
+        {
+          "en": "the media",
+          "vi": "truyền thông báo chí"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 14,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What stops one branch of government from becoming too powerful?",
+      "vi": "Điều gì ngăn một nhánh chính quyền trở nên quá quyền lực?",
+      "answers": [
+        {
+          "en": "checks and balances",
+          "vi": "cơ chế kiểm soát và cân bằng quyền lực"
+        },
+        {
+          "en": "separation of powers",
+          "vi": "sự phân quyền"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Bill of Rights",
+          "vi": "Tuyên Ngôn Nhân Quyền"
+        },
+        {
+          "en": "federalism",
+          "vi": "chủ nghĩa liên bang"
+        },
+        {
+          "en": "the Electoral College",
+          "vi": "Đại cử tri đoàn"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 15,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who is in charge of the executive branch?",
+      "vi": "Ai đứng đầu nhánh hành pháp?",
+      "answers": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Vice President",
+          "vi": "Phó Tổng thống"
+        },
+        {
+          "en": "the Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        },
+        {
+          "en": "the Chief Justice",
+          "vi": "Chánh án Tối cao Pháp viện"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 16,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who makes federal laws?",
+      "vi": "Ai là người làm ra luật liên bang?",
+      "answers": [
+        {
+          "en": "Congress",
+          "vi": "Quốc hội"
+        },
+        {
+          "en": "Senate and House (of Representatives)",
+          "vi": "Thượng viện và Hạ viện"
+        },
+        {
+          "en": "(U.S. or national) legislature",
+          "vi": "cơ quan lập pháp Hoa Kỳ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        },
+        {
+          "en": "the Supreme Court",
+          "vi": "Tối cao Pháp viện"
+        },
+        {
+          "en": "the states",
+          "vi": "các bang"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 17,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What are the two parts of the U.S. Congress?",
+      "vi": "Quốc hội Hoa Kỳ gồm hai viện nào?",
+      "answers": [
+        {
+          "en": "the Senate and House (of Representatives)",
+          "vi": "Thượng viện và Hạ viện"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the House and the Cabinet",
+          "vi": "Hạ viện và Nội các"
+        },
+        {
+          "en": "the Senate and the Supreme Court",
+          "vi": "Thượng viện và Tối cao Pháp viện"
+        },
+        {
+          "en": "the House and the Electoral College",
+          "vi": "Hạ viện và Đại cử tri đoàn"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 18,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "How many U.S. Senators are there?",
+      "vi": "Có bao nhiêu Thượng nghị sĩ Hoa Kỳ?",
+      "answers": [
+        {
+          "en": "one hundred (100)",
+          "vi": "một trăm (100)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "fifty (50)",
+          "vi": "năm mươi (50)"
+        },
+        {
+          "en": "four hundred thirty-five (435)",
+          "vi": "bốn trăm ba mươi lăm (435)"
+        },
+        {
+          "en": "five hundred thirty-five (535)",
+          "vi": "năm trăm ba mươi lăm (535)"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 19,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "We elect a U.S. Senator for how many years?",
+      "vi": "Chúng ta bầu một Thượng nghị sĩ với nhiệm kỳ bao nhiêu năm?",
+      "answers": [
+        {
+          "en": "six (6)",
+          "vi": "sáu (6) năm"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "two (2)",
+          "vi": "hai (2) năm"
+        },
+        {
+          "en": "four (4)",
+          "vi": "bốn (4) năm"
+        },
+        {
+          "en": "eight (8)",
+          "vi": "tám (8) năm"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 20,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who is one of your state's U.S. Senators now?",
+      "vi": "Ai là một trong các Thượng nghị sĩ Hoa Kỳ hiện tại của bang bạn?",
+      "answers": [
+        {
+          "en": "Answers vary by state",
+          "vi": "Câu trả lời tùy theo bang bạn cư trú"
+        }
+      ],
+      "distractors": [],
+      "dynamic": false,
+      "personalized": true,
+      "note": "Đáp án tùy theo bang bạn cư trú — tra cứu tại senate.gov. Cư dân Washington D.C. hoặc các vùng lãnh thổ trả lời rằng nơi mình ở không có Thượng nghị sĩ."
+    },
+    {
+      "id": 21,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "The House of Representatives has how many voting members?",
+      "vi": "Hạ viện có bao nhiêu thành viên có quyền biểu quyết?",
+      "answers": [
+        {
+          "en": "four hundred thirty-five (435)",
+          "vi": "bốn trăm ba mươi lăm (435)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "one hundred (100)",
+          "vi": "một trăm (100)"
+        },
+        {
+          "en": "fifty (50)",
+          "vi": "năm mươi (50)"
+        },
+        {
+          "en": "five hundred thirty-five (535)",
+          "vi": "năm trăm ba mươi lăm (535)"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 22,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "We elect a U.S. Representative for how many years?",
+      "vi": "Chúng ta bầu một Dân biểu Hạ viện với nhiệm kỳ bao nhiêu năm?",
+      "answers": [
+        {
+          "en": "two (2)",
+          "vi": "hai (2) năm"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "four (4)",
+          "vi": "bốn (4) năm"
+        },
+        {
+          "en": "six (6)",
+          "vi": "sáu (6) năm"
+        },
+        {
+          "en": "eight (8)",
+          "vi": "tám (8) năm"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 23,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Name your U.S. Representative.",
+      "vi": "Nêu tên Dân biểu Hạ viện đại diện cho khu vực của bạn.",
+      "answers": [
+        {
+          "en": "Answers vary by district",
+          "vi": "Câu trả lời tùy theo khu vực bầu cử bạn cư trú"
+        }
+      ],
+      "distractors": [],
+      "dynamic": false,
+      "personalized": true,
+      "note": "Đáp án tùy theo khu vực bầu cử (congressional district) nơi bạn cư trú — tra cứu tại house.gov."
+    },
+    {
+      "id": 24,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who does a U.S. Senator represent?",
+      "vi": "Một Thượng nghị sĩ Hoa Kỳ đại diện cho ai?",
+      "answers": [
+        {
+          "en": "all people of the state",
+          "vi": "toàn thể người dân của bang đó"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "only their own political party",
+          "vi": "chỉ đảng phái chính trị của họ"
+        },
+        {
+          "en": "only the state capital",
+          "vi": "chỉ thành phố thủ phủ của bang"
+        },
+        {
+          "en": "only the voters who elected them",
+          "vi": "chỉ những cử tri đã bầu cho họ"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 25,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Why do some states have more Representatives than other states?",
+      "vi": "Tại sao một số bang có nhiều Dân biểu hơn các bang khác?",
+      "answers": [
+        {
+          "en": "(because of) the state's population",
+          "vi": "vì dân số của bang đó"
+        },
+        {
+          "en": "they have more people",
+          "vi": "vì bang đó có nhiều dân hơn"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "because the state's land area is bigger",
+          "vi": "vì diện tích bang đó lớn hơn"
+        },
+        {
+          "en": "because the state joined the Union earlier",
+          "vi": "vì bang đó gia nhập Liên bang sớm hơn"
+        },
+        {
+          "en": "because the governor of the state requested it",
+          "vi": "vì thống đốc bang đó yêu cầu"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 26,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "We elect a President for how many years?",
+      "vi": "Chúng ta bầu Tổng thống với nhiệm kỳ bao nhiêu năm?",
+      "answers": [
+        {
+          "en": "four (4)",
+          "vi": "bốn (4) năm"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "two (2)",
+          "vi": "hai (2) năm"
+        },
+        {
+          "en": "six (6)",
+          "vi": "sáu (6) năm"
+        },
+        {
+          "en": "eight (8)",
+          "vi": "tám (8) năm"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 27,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "In what month do we vote for President?",
+      "vi": "Chúng ta bầu Tổng thống vào tháng nào?",
+      "answers": [
+        {
+          "en": "November",
+          "vi": "tháng Mười Một"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "January",
+          "vi": "tháng Một"
+        },
+        {
+          "en": "July",
+          "vi": "tháng Bảy"
+        },
+        {
+          "en": "December",
+          "vi": "tháng Mười Hai"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 28,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the name of the President of the United States now?",
+      "vi": "Tổng thống Hoa Kỳ hiện nay tên gì?",
+      "answers": [
+        {
+          "en": "Donald Trump",
+          "vi": "Donald Trump"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Joe Biden",
+          "vi": "Joe Biden"
+        },
+        {
+          "en": "Barack Obama",
+          "vi": "Barack Obama"
+        },
+        {
+          "en": "George W. Bush",
+          "vi": "George W. Bush"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Cập nhật theo thời điểm — kiểm tra lại trên USCIS.gov trước ngày thi."
+    },
+    {
+      "id": 29,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the name of the Vice President of the United States now?",
+      "vi": "Phó Tổng thống Hoa Kỳ hiện nay tên gì?",
+      "answers": [
+        {
+          "en": "JD Vance",
+          "vi": "JD Vance"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Kamala Harris",
+          "vi": "Kamala Harris"
+        },
+        {
+          "en": "Mike Pence",
+          "vi": "Mike Pence"
+        },
+        {
+          "en": "Joe Biden",
+          "vi": "Joe Biden"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Cập nhật theo thời điểm — kiểm tra lại trên USCIS.gov trước ngày thi."
+    },
+    {
+      "id": 30,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "If the President can no longer serve, who becomes President?",
+      "vi": "Nếu Tổng thống không thể tiếp tục tại nhiệm, ai sẽ trở thành Tổng thống?",
+      "answers": [
+        {
+          "en": "the Vice President",
+          "vi": "Phó Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        },
+        {
+          "en": "the Chief Justice",
+          "vi": "Chánh án Tối cao Pháp viện"
+        },
+        {
+          "en": "the Secretary of State",
+          "vi": "Bộ trưởng Ngoại giao"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 31,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "vi": "Nếu cả Tổng thống và Phó Tổng thống đều không thể tiếp tục tại nhiệm, ai sẽ trở thành Tổng thống?",
+      "answers": [
+        {
+          "en": "the Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Vice President",
+          "vi": "Phó Tổng thống"
+        },
+        {
+          "en": "the President pro tempore of the Senate",
+          "vi": "Chủ tịch tạm quyền Thượng viện"
+        },
+        {
+          "en": "the Chief Justice",
+          "vi": "Chánh án Tối cao Pháp viện"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 32,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who is the Commander in Chief of the military?",
+      "vi": "Ai là Tổng tư lệnh quân đội?",
+      "answers": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Secretary of Defense",
+          "vi": "Bộ trưởng Quốc phòng"
+        },
+        {
+          "en": "the Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        },
+        {
+          "en": "a five-star general",
+          "vi": "một vị tướng 5 sao"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 33,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who signs bills to become laws?",
+      "vi": "Ai là người ký ban hành dự luật để trở thành luật?",
+      "answers": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        },
+        {
+          "en": "the Chief Justice",
+          "vi": "Chánh án Tối cao Pháp viện"
+        },
+        {
+          "en": "the Senate Majority Leader",
+          "vi": "Lãnh đạo đa số Thượng viện"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 34,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who vetoes bills?",
+      "vi": "Ai có quyền phủ quyết dự luật?",
+      "answers": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Congress",
+          "vi": "Quốc hội"
+        },
+        {
+          "en": "the Supreme Court",
+          "vi": "Tối cao Pháp viện"
+        },
+        {
+          "en": "the Vice President",
+          "vi": "Phó Tổng thống"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 35,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What does the President's Cabinet do?",
+      "vi": "Nội các của Tổng thống có nhiệm vụ gì?",
+      "answers": [
+        {
+          "en": "advises the President",
+          "vi": "cố vấn cho Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "makes federal laws",
+          "vi": "làm ra luật liên bang"
+        },
+        {
+          "en": "declares war",
+          "vi": "tuyên chiến"
+        },
+        {
+          "en": "elects the President",
+          "vi": "bầu ra Tổng thống"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 36,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What are two Cabinet-level positions?",
+      "vi": "Nêu tên hai chức vụ cấp Nội các.",
+      "answers": [
+        {
+          "en": "Secretary of Agriculture",
+          "vi": "Bộ trưởng Nông nghiệp"
+        },
+        {
+          "en": "Secretary of Commerce",
+          "vi": "Bộ trưởng Thương mại"
+        },
+        {
+          "en": "Secretary of Defense",
+          "vi": "Bộ trưởng Quốc phòng"
+        },
+        {
+          "en": "Secretary of Education",
+          "vi": "Bộ trưởng Giáo dục"
+        },
+        {
+          "en": "Secretary of Energy",
+          "vi": "Bộ trưởng Năng lượng"
+        },
+        {
+          "en": "Secretary of Health and Human Services",
+          "vi": "Bộ trưởng Y tế và Dịch vụ Nhân sinh"
+        },
+        {
+          "en": "Secretary of Homeland Security",
+          "vi": "Bộ trưởng An ninh Nội địa"
+        },
+        {
+          "en": "Secretary of Housing and Urban Development",
+          "vi": "Bộ trưởng Nhà ở và Phát triển Đô thị"
+        },
+        {
+          "en": "Secretary of the Interior",
+          "vi": "Bộ trưởng Nội vụ"
+        },
+        {
+          "en": "Secretary of Labor",
+          "vi": "Bộ trưởng Lao động"
+        },
+        {
+          "en": "Secretary of State",
+          "vi": "Bộ trưởng Ngoại giao"
+        },
+        {
+          "en": "Secretary of Transportation",
+          "vi": "Bộ trưởng Giao thông"
+        },
+        {
+          "en": "Secretary of Treasury",
+          "vi": "Bộ trưởng Tài chính"
+        },
+        {
+          "en": "Secretary of Veterans Affairs",
+          "vi": "Bộ trưởng Cựu chiến binh"
+        },
+        {
+          "en": "Attorney General",
+          "vi": "Bộ trưởng Tư pháp"
+        },
+        {
+          "en": "Vice President",
+          "vi": "Phó Tổng thống"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Speaker of the House",
+          "vi": "Chủ tịch Hạ viện"
+        },
+        {
+          "en": "Chief Justice",
+          "vi": "Chánh án Tối cao Pháp viện"
+        },
+        {
+          "en": "Senate Majority Leader",
+          "vi": "Lãnh đạo đa số Thượng viện"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 37,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What does the judicial branch do?",
+      "vi": "Nhánh tư pháp có nhiệm vụ gì?",
+      "answers": [
+        {
+          "en": "reviews laws",
+          "vi": "xem xét luật"
+        },
+        {
+          "en": "explains laws",
+          "vi": "giải thích luật"
+        },
+        {
+          "en": "resolves disputes (disagreements)",
+          "vi": "giải quyết tranh chấp"
+        },
+        {
+          "en": "decides if a law goes against the Constitution",
+          "vi": "quyết định một đạo luật có vi hiến hay không"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "writes new laws",
+          "vi": "soạn thảo luật mới"
+        },
+        {
+          "en": "commands the military",
+          "vi": "chỉ huy quân đội"
+        },
+        {
+          "en": "collects federal taxes",
+          "vi": "thu thuế liên bang"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 38,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the highest court in the United States?",
+      "vi": "Tòa án cao nhất của Hoa Kỳ là gì?",
+      "answers": [
+        {
+          "en": "the Supreme Court",
+          "vi": "Tối cao Pháp viện"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Court of Appeals",
+          "vi": "Tòa Phúc thẩm"
+        },
+        {
+          "en": "Congress",
+          "vi": "Quốc hội"
+        },
+        {
+          "en": "the District Court",
+          "vi": "Tòa án Quận"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 39,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "How many justices are on the Supreme Court?",
+      "vi": "Tối cao Pháp viện có bao nhiêu thẩm phán?",
+      "answers": [
+        {
+          "en": "nine (9)",
+          "vi": "chín (9)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "seven (7)",
+          "vi": "bảy (7)"
+        },
+        {
+          "en": "eleven (11)",
+          "vi": "mười một (11)"
+        },
+        {
+          "en": "twelve (12)",
+          "vi": "mười hai (12)"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Số lượng do Quốc hội quy định, hiện là chín (9)."
+    },
+    {
+      "id": 40,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who is the Chief Justice of the United States now?",
+      "vi": "Ai là Chánh án Tối cao Pháp viện hiện nay?",
+      "answers": [
+        {
+          "en": "John Roberts",
+          "vi": "John Roberts"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Clarence Thomas",
+          "vi": "Clarence Thomas"
+        },
+        {
+          "en": "Sonia Sotomayor",
+          "vi": "Sonia Sotomayor"
+        },
+        {
+          "en": "Neil Gorsuch",
+          "vi": "Neil Gorsuch"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Cập nhật theo thời điểm — kiểm tra lại trên USCIS.gov trước ngày thi."
+    },
+    {
+      "id": 41,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "vi": "Theo Hiến pháp, một số quyền thuộc về chính quyền liên bang. Nêu một quyền của chính quyền liên bang.",
+      "answers": [
+        {
+          "en": "to print money",
+          "vi": "in tiền"
+        },
+        {
+          "en": "to declare war",
+          "vi": "tuyên chiến"
+        },
+        {
+          "en": "to create an army",
+          "vi": "thành lập quân đội"
+        },
+        {
+          "en": "to make treaties",
+          "vi": "ký kết hiệp ước"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "to give a driver's license",
+          "vi": "cấp bằng lái xe"
+        },
+        {
+          "en": "to provide policing",
+          "vi": "cung cấp lực lượng cảnh sát"
+        },
+        {
+          "en": "to approve zoning and land use",
+          "vi": "phê duyệt quy hoạch và sử dụng đất"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 42,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "vi": "Theo Hiến pháp, một số quyền thuộc về các bang. Nêu một quyền của các bang.",
+      "answers": [
+        {
+          "en": "provide schooling and education",
+          "vi": "cung cấp giáo dục"
+        },
+        {
+          "en": "provide protection (police)",
+          "vi": "cung cấp lực lượng cảnh sát"
+        },
+        {
+          "en": "provide safety (fire departments)",
+          "vi": "cung cấp lực lượng cứu hỏa"
+        },
+        {
+          "en": "give a driver's license",
+          "vi": "cấp bằng lái xe"
+        },
+        {
+          "en": "approve zoning and land use",
+          "vi": "phê duyệt quy hoạch và sử dụng đất"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "to print money",
+          "vi": "in tiền"
+        },
+        {
+          "en": "to declare war",
+          "vi": "tuyên chiến"
+        },
+        {
+          "en": "to make treaties with other countries",
+          "vi": "ký kết hiệp ước với các nước khác"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 43,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "Who is the Governor of your state now?",
+      "vi": "Ai là Thống đốc bang của bạn hiện nay?",
+      "answers": [
+        {
+          "en": "Answers vary by state",
+          "vi": "Câu trả lời tùy theo bang bạn cư trú"
+        }
+      ],
+      "distractors": [],
+      "dynamic": false,
+      "personalized": true,
+      "note": "Đáp án tùy theo bang bạn cư trú. Cư dân Washington D.C. trả lời rằng D.C. không có Thống đốc."
+    },
+    {
+      "id": 44,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the capital of your state?",
+      "vi": "Thủ phủ của bang bạn là gì?",
+      "answers": [
+        {
+          "en": "Answers vary by state",
+          "vi": "Câu trả lời tùy theo bang bạn cư trú"
+        }
+      ],
+      "distractors": [],
+      "dynamic": false,
+      "personalized": true,
+      "note": "Cư dân Washington D.C. trả lời rằng D.C. không phải là bang nên không có thủ phủ; cư dân vùng lãnh thổ nêu tên thủ phủ vùng lãnh thổ đó."
+    },
+    {
+      "id": 45,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What are the two major political parties in the United States?",
+      "vi": "Hai đảng chính trị lớn nhất của Hoa Kỳ là gì?",
+      "answers": [
+        {
+          "en": "Democratic and Republican",
+          "vi": "Đảng Dân chủ và Đảng Cộng hòa"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Democratic and Libertarian",
+          "vi": "Đảng Dân chủ và Đảng Tự do (Libertarian)"
+        },
+        {
+          "en": "Republican and Green",
+          "vi": "Đảng Cộng hòa và Đảng Xanh (Green Party)"
+        },
+        {
+          "en": "Federalist and Whig",
+          "vi": "Đảng Liên bang và Đảng Whig"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 46,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the political party of the President now?",
+      "vi": "Tổng thống hiện nay thuộc đảng nào?",
+      "answers": [
+        {
+          "en": "Republican",
+          "vi": "Đảng Cộng hòa"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Democratic",
+          "vi": "Đảng Dân chủ"
+        },
+        {
+          "en": "Independent",
+          "vi": "Độc lập (không đảng phái)"
+        },
+        {
+          "en": "Libertarian",
+          "vi": "Đảng Tự do"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Cập nhật theo thời điểm — kiểm tra lại trên USCIS.gov trước ngày thi."
+    },
+    {
+      "id": 47,
+      "category": "government",
+      "section": "Hệ Thống Chính Quyền",
+      "en": "What is the name of the Speaker of the House of Representatives now?",
+      "vi": "Ai là Chủ tịch Hạ viện hiện nay?",
+      "answers": [
+        {
+          "en": "Mike Johnson",
+          "vi": "Mike Johnson"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Nancy Pelosi",
+          "vi": "Nancy Pelosi"
+        },
+        {
+          "en": "Kevin McCarthy",
+          "vi": "Kevin McCarthy"
+        },
+        {
+          "en": "Chuck Schumer",
+          "vi": "Chuck Schumer"
+        }
+      ],
+      "dynamic": true,
+      "personalized": false,
+      "note": "Cập nhật theo thời điểm — kiểm tra lại trên USCIS.gov trước ngày thi."
+    },
+    {
+      "id": 48,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "vi": "Có bốn tu chính án Hiến pháp quy định về quyền bầu cử. Hãy mô tả một trong số đó.",
+      "answers": [
+        {
+          "en": "Citizens eighteen (18) and older (can vote).",
+          "vi": "Công dân từ 18 tuổi trở lên được quyền bầu cử."
+        },
+        {
+          "en": "You don't have to pay (a poll tax) to vote.",
+          "vi": "Không phải đóng thuế bầu cử mới được đi bầu."
+        },
+        {
+          "en": "Any citizen can vote. (Women and men can vote.)",
+          "vi": "Mọi công dân đều được bầu cử (cả nam và nữ)."
+        },
+        {
+          "en": "A male citizen of any race (can vote).",
+          "vi": "Công dân nam thuộc bất kỳ chủng tộc nào đều được bầu cử."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Only property owners can vote.",
+          "vi": "Chỉ người sở hữu tài sản mới được bầu cử."
+        },
+        {
+          "en": "Voting is mandatory for all citizens.",
+          "vi": "Bầu cử là bắt buộc đối với mọi công dân."
+        },
+        {
+          "en": "Only English speakers can vote.",
+          "vi": "Chỉ người nói tiếng Anh mới được bầu cử."
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 49,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "What is one responsibility that is only for United States citizens?",
+      "vi": "Nêu một trách nhiệm chỉ dành riêng cho công dân Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "serve on a jury",
+          "vi": "tham gia bồi thẩm đoàn"
+        },
+        {
+          "en": "vote in a federal election",
+          "vi": "bỏ phiếu trong bầu cử liên bang"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "pay taxes",
+          "vi": "đóng thuế"
+        },
+        {
+          "en": "obey traffic laws",
+          "vi": "tuân thủ luật giao thông"
+        },
+        {
+          "en": "register your children for school",
+          "vi": "đăng ký cho con đi học"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 50,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "Name one right only for United States citizens.",
+      "vi": "Nêu một quyền chỉ dành riêng cho công dân Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "vote in a federal election",
+          "vi": "quyền bầu cử liên bang"
+        },
+        {
+          "en": "run for federal office",
+          "vi": "quyền ứng cử chức vụ liên bang"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "freedom of speech",
+          "vi": "tự do ngôn luận"
+        },
+        {
+          "en": "the right to a fair trial",
+          "vi": "quyền được xét xử công bằng"
+        },
+        {
+          "en": "freedom of religion",
+          "vi": "tự do tôn giáo"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 51,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "What are two rights of everyone living in the United States?",
+      "vi": "Nêu hai quyền của tất cả những người đang sinh sống tại Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "freedom of expression",
+          "vi": "tự do biểu đạt"
+        },
+        {
+          "en": "freedom of speech",
+          "vi": "tự do ngôn luận"
+        },
+        {
+          "en": "freedom of assembly",
+          "vi": "tự do hội họp"
+        },
+        {
+          "en": "freedom to petition the government",
+          "vi": "quyền kiến nghị chính phủ"
+        },
+        {
+          "en": "freedom of worship",
+          "vi": "tự do tín ngưỡng"
+        },
+        {
+          "en": "the right to bear arms",
+          "vi": "quyền sở hữu súng"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the right to vote in federal elections",
+          "vi": "quyền bầu cử liên bang"
+        },
+        {
+          "en": "the right to run for President",
+          "vi": "quyền ứng cử Tổng thống"
+        },
+        {
+          "en": "the right to hold federal office",
+          "vi": "quyền giữ chức vụ liên bang"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 52,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "vi": "Khi đọc Lời Tuyên Thệ Trung Thành (Pledge of Allegiance), chúng ta thể hiện lòng trung thành với điều gì?",
+      "answers": [
+        {
+          "en": "the United States",
+          "vi": "Hoa Kỳ"
+        },
+        {
+          "en": "the flag",
+          "vi": "lá cờ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the President",
+          "vi": "Tổng thống"
+        },
+        {
+          "en": "the Constitution",
+          "vi": "Hiến pháp"
+        },
+        {
+          "en": "the military",
+          "vi": "quân đội"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 53,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "What is one promise you make when you become a United States citizen?",
+      "vi": "Nêu một lời cam kết bạn phải thực hiện khi trở thành công dân Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "give up loyalty to other countries",
+          "vi": "từ bỏ lòng trung thành với các quốc gia khác"
+        },
+        {
+          "en": "defend the Constitution and laws of the United States",
+          "vi": "bảo vệ Hiến pháp và luật pháp Hoa Kỳ"
+        },
+        {
+          "en": "obey the laws of the United States",
+          "vi": "tuân thủ luật pháp Hoa Kỳ"
+        },
+        {
+          "en": "serve in the U.S. military (if needed)",
+          "vi": "phục vụ trong quân đội Hoa Kỳ nếu cần"
+        },
+        {
+          "en": "serve (do important work for) the nation (if needed)",
+          "vi": "phục vụ đất nước nếu cần"
+        },
+        {
+          "en": "be loyal to the United States",
+          "vi": "trung thành với Hoa Kỳ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "renounce your native language",
+          "vi": "từ bỏ tiếng mẹ đẻ"
+        },
+        {
+          "en": "surrender your original birth certificate",
+          "vi": "nộp lại giấy khai sinh gốc"
+        },
+        {
+          "en": "change your name to an English name",
+          "vi": "đổi tên sang tên tiếng Anh"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 54,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "How old do citizens have to be to vote for President?",
+      "vi": "Công dân phải đủ bao nhiêu tuổi mới được bầu Tổng thống?",
+      "answers": [
+        {
+          "en": "eighteen (18) and older",
+          "vi": "từ 18 tuổi trở lên"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "sixteen (16)",
+          "vi": "mười sáu (16)"
+        },
+        {
+          "en": "twenty-one (21)",
+          "vi": "hai mươi mốt (21)"
+        },
+        {
+          "en": "twenty-five (25)",
+          "vi": "hai mươi lăm (25)"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 55,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "What are two ways that Americans can participate in their democracy?",
+      "vi": "Nêu hai cách người Mỹ có thể tham gia vào nền dân chủ của đất nước.",
+      "answers": [
+        {
+          "en": "vote",
+          "vi": "đi bầu cử"
+        },
+        {
+          "en": "join a political party",
+          "vi": "gia nhập đảng phái chính trị"
+        },
+        {
+          "en": "help with a campaign",
+          "vi": "tham gia vận động tranh cử"
+        },
+        {
+          "en": "join a civic group",
+          "vi": "tham gia hội đoàn dân sự"
+        },
+        {
+          "en": "give an elected official your opinion on an issue",
+          "vi": "nêu ý kiến với quan chức dân cử"
+        },
+        {
+          "en": "call Senators and Representatives",
+          "vi": "gọi điện cho Thượng nghị sĩ và Dân biểu"
+        },
+        {
+          "en": "publicly support or oppose an issue or policy",
+          "vi": "công khai ủng hộ hoặc phản đối một vấn đề"
+        },
+        {
+          "en": "run for office",
+          "vi": "ra ứng cử"
+        },
+        {
+          "en": "write to a newspaper",
+          "vi": "viết thư cho báo chí"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "watch the news every day",
+          "vi": "xem tin tức mỗi ngày"
+        },
+        {
+          "en": "attend religious services",
+          "vi": "tham dự lễ tôn giáo"
+        },
+        {
+          "en": "apply for a driver's license",
+          "vi": "xin cấp bằng lái xe"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 56,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "When is the last day you can send in federal income tax forms?",
+      "vi": "Hạn chót để nộp tờ khai thuế thu nhập liên bang là ngày nào?",
+      "answers": [
+        {
+          "en": "April 15",
+          "vi": "ngày 15 tháng Tư"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "January 1",
+          "vi": "ngày 1 tháng Một"
+        },
+        {
+          "en": "December 31",
+          "vi": "ngày 31 tháng Mười Hai"
+        },
+        {
+          "en": "July 4",
+          "vi": "ngày 4 tháng Bảy"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 57,
+      "category": "government",
+      "section": "Quyền Và Trách Nhiệm Công Dân",
+      "en": "When must all men register for the Selective Service?",
+      "vi": "Tất cả nam giới phải đăng ký nghĩa vụ quân sự dự bị (Selective Service) vào thời điểm nào?",
+      "answers": [
+        {
+          "en": "at age eighteen (18)",
+          "vi": "năm 18 tuổi"
+        },
+        {
+          "en": "between eighteen (18) and twenty-six (26)",
+          "vi": "trong khoảng từ 18 đến 26 tuổi"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "at age twenty-one (21)",
+          "vi": "năm 21 tuổi"
+        },
+        {
+          "en": "between sixteen (16) and eighteen (18)",
+          "vi": "từ 16 đến 18 tuổi"
+        },
+        {
+          "en": "at age thirty (30)",
+          "vi": "năm 30 tuổi"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 58,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "What is one reason colonists came to America?",
+      "vi": "Nêu một lý do khiến những người thực dân đến châu Mỹ.",
+      "answers": [
+        {
+          "en": "freedom",
+          "vi": "tự do"
+        },
+        {
+          "en": "political liberty",
+          "vi": "tự do chính trị"
+        },
+        {
+          "en": "religious freedom",
+          "vi": "tự do tôn giáo"
+        },
+        {
+          "en": "economic opportunity",
+          "vi": "cơ hội kinh tế"
+        },
+        {
+          "en": "escape persecution",
+          "vi": "thoát khỏi sự đàn áp"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "to explore for the government of Spain",
+          "vi": "để thám hiểm cho chính phủ Tây Ban Nha"
+        },
+        {
+          "en": "to establish a monarchy in America",
+          "vi": "để thiết lập chế độ quân chủ tại châu Mỹ"
+        },
+        {
+          "en": "to trade exclusively with Native Americans",
+          "vi": "để độc quyền giao thương với người da đỏ bản địa"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 59,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "Who lived in America before the Europeans arrived?",
+      "vi": "Ai đã sinh sống ở châu Mỹ trước khi người châu Âu đến?",
+      "answers": [
+        {
+          "en": "American Indians",
+          "vi": "người da đỏ bản địa"
+        },
+        {
+          "en": "Native Americans",
+          "vi": "thổ dân châu Mỹ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Spanish",
+          "vi": "người Tây Ban Nha"
+        },
+        {
+          "en": "only the Vikings",
+          "vi": "chỉ có người Viking"
+        },
+        {
+          "en": "no one, the land was empty",
+          "vi": "không ai cả, vùng đất trống"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 60,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "What group of people was taken to America and sold as slaves?",
+      "vi": "Nhóm người nào đã bị đưa đến châu Mỹ và bán làm nô lệ?",
+      "answers": [
+        {
+          "en": "Africans",
+          "vi": "người châu Phi"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Irish immigrants",
+          "vi": "người nhập cư Ireland"
+        },
+        {
+          "en": "Chinese laborers",
+          "vi": "lao động Trung Quốc"
+        },
+        {
+          "en": "American Indians",
+          "vi": "người da đỏ bản địa"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 61,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "Why did the colonists fight the British?",
+      "vi": "Tại sao những người thực dân lại chiến đấu chống lại người Anh?",
+      "answers": [
+        {
+          "en": "because of high taxes (taxation without representation)",
+          "vi": "vì thuế quá cao (bị đánh thuế mà không có đại diện)"
+        },
+        {
+          "en": "because the British army stayed in their houses (boarding, quartering)",
+          "vi": "vì quân đội Anh đóng quân trong nhà dân"
+        },
+        {
+          "en": "because they didn't have self-government",
+          "vi": "vì họ không có quyền tự quản"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "because Great Britain banned slavery",
+          "vi": "vì Anh Quốc cấm chế độ nô lệ"
+        },
+        {
+          "en": "because the King demanded they change religion",
+          "vi": "vì nhà vua yêu cầu họ cải đạo"
+        },
+        {
+          "en": "because Great Britain refused to trade with them",
+          "vi": "vì Anh Quốc từ chối giao thương với họ"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 62,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "Who wrote the Declaration of Independence?",
+      "vi": "Ai đã viết Tuyên Ngôn Độc Lập?",
+      "answers": [
+        {
+          "en": "(Thomas) Jefferson",
+          "vi": "(Thomas) Jefferson"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "George Washington",
+          "vi": "George Washington"
+        },
+        {
+          "en": "Benjamin Franklin",
+          "vi": "Benjamin Franklin"
+        },
+        {
+          "en": "John Adams",
+          "vi": "John Adams"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 63,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "When was the Declaration of Independence adopted?",
+      "vi": "Tuyên Ngôn Độc Lập được thông qua vào ngày nào?",
+      "answers": [
+        {
+          "en": "July 4, 1776",
+          "vi": "ngày 4 tháng 7 năm 1776"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "July 4, 1789",
+          "vi": "ngày 4 tháng 7 năm 1789"
+        },
+        {
+          "en": "September 17, 1787",
+          "vi": "ngày 17 tháng 9 năm 1787"
+        },
+        {
+          "en": "December 25, 1776",
+          "vi": "ngày 25 tháng 12 năm 1776"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 64,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "There were 13 original states. Name three.",
+      "vi": "Có 13 tiểu bang lập quốc đầu tiên. Nêu tên ba bang trong số đó.",
+      "answers": [
+        {
+          "en": "New Hampshire",
+          "vi": "New Hampshire"
+        },
+        {
+          "en": "Massachusetts",
+          "vi": "Massachusetts"
+        },
+        {
+          "en": "Rhode Island",
+          "vi": "Rhode Island"
+        },
+        {
+          "en": "Connecticut",
+          "vi": "Connecticut"
+        },
+        {
+          "en": "New York",
+          "vi": "New York"
+        },
+        {
+          "en": "New Jersey",
+          "vi": "New Jersey"
+        },
+        {
+          "en": "Pennsylvania",
+          "vi": "Pennsylvania"
+        },
+        {
+          "en": "Delaware",
+          "vi": "Delaware"
+        },
+        {
+          "en": "Maryland",
+          "vi": "Maryland"
+        },
+        {
+          "en": "Virginia",
+          "vi": "Virginia"
+        },
+        {
+          "en": "North Carolina",
+          "vi": "North Carolina"
+        },
+        {
+          "en": "South Carolina",
+          "vi": "South Carolina"
+        },
+        {
+          "en": "Georgia",
+          "vi": "Georgia"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "California",
+          "vi": "California"
+        },
+        {
+          "en": "Texas",
+          "vi": "Texas"
+        },
+        {
+          "en": "Ohio",
+          "vi": "Ohio"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 65,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "What happened at the Constitutional Convention?",
+      "vi": "Điều gì đã diễn ra tại Hội Nghị Lập Hiến (Constitutional Convention)?",
+      "answers": [
+        {
+          "en": "The Constitution was written.",
+          "vi": "Hiến pháp được soạn thảo."
+        },
+        {
+          "en": "The Founding Fathers wrote the Constitution.",
+          "vi": "Các Quốc phụ (Founding Fathers) đã viết ra Hiến pháp."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "The Declaration of Independence was signed.",
+          "vi": "Tuyên Ngôn Độc Lập được ký."
+        },
+        {
+          "en": "The Civil War ended.",
+          "vi": "Nội chiến kết thúc."
+        },
+        {
+          "en": "The first President was elected directly by popular vote.",
+          "vi": "Tổng thống đầu tiên được bầu trực tiếp bởi phổ thông đầu phiếu."
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 66,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "When was the Constitution written?",
+      "vi": "Hiến pháp được soạn thảo vào năm nào?",
+      "answers": [
+        {
+          "en": "1787",
+          "vi": "1787"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "1776",
+          "vi": "1776"
+        },
+        {
+          "en": "1791",
+          "vi": "1791"
+        },
+        {
+          "en": "1803",
+          "vi": "1803"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 67,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "vi": "Tập luận văn Federalist Papers ủng hộ việc thông qua Hiến pháp Hoa Kỳ. Nêu tên một trong những tác giả.",
+      "answers": [
+        {
+          "en": "(James) Madison",
+          "vi": "(James) Madison"
+        },
+        {
+          "en": "(Alexander) Hamilton",
+          "vi": "(Alexander) Hamilton"
+        },
+        {
+          "en": "(John) Jay",
+          "vi": "(John) Jay"
+        },
+        {
+          "en": "Publius",
+          "vi": "Publius"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Thomas Jefferson",
+          "vi": "Thomas Jefferson"
+        },
+        {
+          "en": "George Washington",
+          "vi": "George Washington"
+        },
+        {
+          "en": "Benjamin Franklin",
+          "vi": "Benjamin Franklin"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 68,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "What is one thing Benjamin Franklin is famous for?",
+      "vi": "Benjamin Franklin nổi tiếng với điều gì?",
+      "answers": [
+        {
+          "en": "U.S. diplomat",
+          "vi": "nhà ngoại giao Hoa Kỳ"
+        },
+        {
+          "en": "oldest member of the Constitutional Convention",
+          "vi": "thành viên lớn tuổi nhất của Hội Nghị Lập Hiến"
+        },
+        {
+          "en": "first Postmaster General of the United States",
+          "vi": "Tổng cục trưởng Bưu điện đầu tiên của Hoa Kỳ"
+        },
+        {
+          "en": "writer of “Poor Richard's Almanac”",
+          "vi": "tác giả cuốn “Poor Richard's Almanac”"
+        },
+        {
+          "en": "started the first free libraries",
+          "vi": "sáng lập những thư viện công cộng miễn phí đầu tiên"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "was the first President of the United States",
+          "vi": "là Tổng thống đầu tiên của Hoa Kỳ"
+        },
+        {
+          "en": "wrote the Declaration of Independence",
+          "vi": "viết Tuyên Ngôn Độc Lập"
+        },
+        {
+          "en": "led the Continental Army",
+          "vi": "chỉ huy Lục quân Lục địa"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 69,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "Who is the “Father of Our Country”?",
+      "vi": "Ai được gọi là “Người Cha Của Đất Nước” (Father of Our Country)?",
+      "answers": [
+        {
+          "en": "(George) Washington",
+          "vi": "(George) Washington"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Thomas Jefferson",
+          "vi": "Thomas Jefferson"
+        },
+        {
+          "en": "Abraham Lincoln",
+          "vi": "Abraham Lincoln"
+        },
+        {
+          "en": "Benjamin Franklin",
+          "vi": "Benjamin Franklin"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 70,
+      "category": "history",
+      "section": "Thời Kỳ Thuộc Địa Và Độc Lập",
+      "en": "Who was the first President?",
+      "vi": "Ai là Tổng thống đầu tiên của Hoa Kỳ?",
+      "answers": [
+        {
+          "en": "(George) Washington",
+          "vi": "(George) Washington"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "John Adams",
+          "vi": "John Adams"
+        },
+        {
+          "en": "Thomas Jefferson",
+          "vi": "Thomas Jefferson"
+        },
+        {
+          "en": "Alexander Hamilton",
+          "vi": "Alexander Hamilton"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 71,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "What territory did the United States buy from France in 1803?",
+      "vi": "Hoa Kỳ đã mua vùng lãnh thổ nào từ Pháp vào năm 1803?",
+      "answers": [
+        {
+          "en": "the Louisiana Territory",
+          "vi": "vùng lãnh thổ Louisiana"
+        },
+        {
+          "en": "Louisiana",
+          "vi": "Louisiana"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Florida, bought from Spain",
+          "vi": "Florida, mua từ Tây Ban Nha"
+        },
+        {
+          "en": "Alaska, bought from Russia",
+          "vi": "Alaska, mua từ Nga"
+        },
+        {
+          "en": "Texas, bought from Mexico",
+          "vi": "Texas, mua từ Mexico"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 72,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "Name one war fought by the United States in the 1800s.",
+      "vi": "Nêu tên một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 19.",
+      "answers": [
+        {
+          "en": "War of 1812",
+          "vi": "Chiến tranh năm 1812"
+        },
+        {
+          "en": "Mexican-American War",
+          "vi": "Chiến tranh Mỹ - Mexico"
+        },
+        {
+          "en": "Civil War",
+          "vi": "Nội chiến"
+        },
+        {
+          "en": "Spanish-American War",
+          "vi": "Chiến tranh Mỹ - Tây Ban Nha"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "World War I",
+          "vi": "Thế chiến I"
+        },
+        {
+          "en": "Vietnam War",
+          "vi": "Chiến tranh Việt Nam"
+        },
+        {
+          "en": "the Revolutionary War",
+          "vi": "Chiến tranh giành độc lập"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 73,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "Name the U.S. war between the North and the South.",
+      "vi": "Nêu tên cuộc chiến giữa miền Bắc và miền Nam Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "the Civil War",
+          "vi": "Nội chiến Hoa Kỳ"
+        },
+        {
+          "en": "the War between the States",
+          "vi": "Cuộc chiến giữa các Bang"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Revolutionary War",
+          "vi": "Chiến tranh giành độc lập"
+        },
+        {
+          "en": "World War I",
+          "vi": "Thế chiến I"
+        },
+        {
+          "en": "the Mexican-American War",
+          "vi": "Chiến tranh Mỹ - Mexico"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 74,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "Name one problem that led to the Civil War.",
+      "vi": "Nêu một nguyên nhân dẫn đến Nội chiến.",
+      "answers": [
+        {
+          "en": "slavery",
+          "vi": "chế độ nô lệ"
+        },
+        {
+          "en": "economic reasons",
+          "vi": "lý do kinh tế"
+        },
+        {
+          "en": "states' rights",
+          "vi": "quyền của các bang"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "disagreement with Great Britain over taxes",
+          "vi": "bất đồng với Anh Quốc về thuế"
+        },
+        {
+          "en": "a dispute over the Louisiana Purchase",
+          "vi": "tranh chấp về việc mua Louisiana"
+        },
+        {
+          "en": "conflict with Native American tribes",
+          "vi": "xung đột với các bộ tộc da đỏ bản địa"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 75,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "What was one important thing that Abraham Lincoln did?",
+      "vi": "Abraham Lincoln đã làm được điều quan trọng gì?",
+      "answers": [
+        {
+          "en": "freed the slaves (Emancipation Proclamation)",
+          "vi": "giải phóng nô lệ (Tuyên Ngôn Giải Phóng Nô Lệ)"
+        },
+        {
+          "en": "saved (or preserved) the Union",
+          "vi": "gìn giữ Liên bang"
+        },
+        {
+          "en": "led the United States during the Civil War",
+          "vi": "lãnh đạo Hoa Kỳ trong suốt Nội chiến"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "wrote the Declaration of Independence",
+          "vi": "viết Tuyên Ngôn Độc Lập"
+        },
+        {
+          "en": "led the country during World War II",
+          "vi": "lãnh đạo đất nước trong Thế chiến II"
+        },
+        {
+          "en": "was the first President of the United States",
+          "vi": "là Tổng thống đầu tiên của Hoa Kỳ"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 76,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "What did the Emancipation Proclamation do?",
+      "vi": "Tuyên Ngôn Giải Phóng Nô Lệ (Emancipation Proclamation) đã làm gì?",
+      "answers": [
+        {
+          "en": "freed the slaves",
+          "vi": "giải phóng nô lệ"
+        },
+        {
+          "en": "freed slaves in the Confederacy",
+          "vi": "giải phóng nô lệ ở các bang thuộc Liên minh miền Nam"
+        },
+        {
+          "en": "freed slaves in the Confederate states",
+          "vi": "giải phóng nô lệ ở các bang Liên minh miền Nam"
+        },
+        {
+          "en": "freed slaves in most Southern states",
+          "vi": "giải phóng nô lệ ở hầu hết các bang miền Nam"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "gave women the right to vote",
+          "vi": "trao quyền bầu cử cho phụ nữ"
+        },
+        {
+          "en": "ended World War I",
+          "vi": "kết thúc Thế chiến I"
+        },
+        {
+          "en": "created the Bill of Rights",
+          "vi": "tạo ra Tuyên Ngôn Nhân Quyền"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 77,
+      "category": "history",
+      "section": "Thế Kỷ 19 (1800s)",
+      "en": "What did Susan B. Anthony do?",
+      "vi": "Susan B. Anthony đã làm gì?",
+      "answers": [
+        {
+          "en": "fought for women's rights",
+          "vi": "đấu tranh cho quyền của phụ nữ"
+        },
+        {
+          "en": "fought for civil rights",
+          "vi": "đấu tranh cho quyền công dân"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "led the civil rights movement in the 1960s",
+          "vi": "lãnh đạo phong trào Dân quyền thập niên 1960"
+        },
+        {
+          "en": "was a President of the United States",
+          "vi": "là một Tổng thống Hoa Kỳ"
+        },
+        {
+          "en": "wrote the Declaration of Independence",
+          "vi": "viết Tuyên Ngôn Độc Lập"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 78,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Name one war fought by the United States in the 1900s.",
+      "vi": "Nêu tên một cuộc chiến mà Hoa Kỳ đã tham gia trong thế kỷ 20.",
+      "answers": [
+        {
+          "en": "World War I",
+          "vi": "Thế chiến I"
+        },
+        {
+          "en": "World War II",
+          "vi": "Thế chiến II"
+        },
+        {
+          "en": "Korean War",
+          "vi": "Chiến tranh Triều Tiên"
+        },
+        {
+          "en": "Vietnam War",
+          "vi": "Chiến tranh Việt Nam"
+        },
+        {
+          "en": "(Persian) Gulf War",
+          "vi": "Chiến tranh Vùng Vịnh"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Civil War",
+          "vi": "Nội chiến"
+        },
+        {
+          "en": "the Revolutionary War",
+          "vi": "Chiến tranh giành độc lập"
+        },
+        {
+          "en": "the War of 1812",
+          "vi": "Chiến tranh năm 1812"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 79,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Who was President during World War I?",
+      "vi": "Ai là Tổng thống trong Thế chiến I?",
+      "answers": [
+        {
+          "en": "(Woodrow) Wilson",
+          "vi": "(Woodrow) Wilson"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Franklin Roosevelt",
+          "vi": "Franklin Roosevelt"
+        },
+        {
+          "en": "Theodore Roosevelt",
+          "vi": "Theodore Roosevelt"
+        },
+        {
+          "en": "Dwight Eisenhower",
+          "vi": "Dwight Eisenhower"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 80,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Who was President during the Great Depression and World War II?",
+      "vi": "Ai là Tổng thống trong thời kỳ Đại Khủng Hoảng và Thế chiến II?",
+      "answers": [
+        {
+          "en": "(Franklin) Roosevelt",
+          "vi": "(Franklin) Roosevelt"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Woodrow Wilson",
+          "vi": "Woodrow Wilson"
+        },
+        {
+          "en": "Harry Truman",
+          "vi": "Harry Truman"
+        },
+        {
+          "en": "Dwight Eisenhower",
+          "vi": "Dwight Eisenhower"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 81,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Who did the United States fight in World War II?",
+      "vi": "Trong Thế chiến II, Hoa Kỳ đã chiến đấu chống lại những nước nào?",
+      "answers": [
+        {
+          "en": "Japan, Germany, and Italy",
+          "vi": "Nhật Bản, Đức và Ý"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Japan, China, and Russia",
+          "vi": "Nhật Bản, Trung Quốc và Nga"
+        },
+        {
+          "en": "Germany, France, and Britain",
+          "vi": "Đức, Pháp và Anh"
+        },
+        {
+          "en": "Vietnam, Korea, and China",
+          "vi": "Việt Nam, Triều Tiên và Trung Quốc"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 82,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Before he was President, Eisenhower was a general. What war was he in?",
+      "vi": "Trước khi làm Tổng thống, Eisenhower từng là một vị tướng. Ông đã tham chiến trong cuộc chiến nào?",
+      "answers": [
+        {
+          "en": "World War II",
+          "vi": "Thế chiến II"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Korean War",
+          "vi": "Chiến tranh Triều Tiên"
+        },
+        {
+          "en": "World War I",
+          "vi": "Thế chiến I"
+        },
+        {
+          "en": "the Vietnam War",
+          "vi": "Chiến tranh Việt Nam"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 83,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "During the Cold War, what was the main concern of the United States?",
+      "vi": "Trong thời kỳ Chiến tranh Lạnh, mối quan tâm chính của Hoa Kỳ là gì?",
+      "answers": [
+        {
+          "en": "Communism",
+          "vi": "Chủ nghĩa Cộng sản"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Terrorism",
+          "vi": "Chủ nghĩa khủng bố"
+        },
+        {
+          "en": "Fascism",
+          "vi": "Chủ nghĩa phát xít"
+        },
+        {
+          "en": "Illegal immigration",
+          "vi": "Vấn đề nhập cư bất hợp pháp"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 84,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "What movement tried to end racial discrimination?",
+      "vi": "Phong trào nào đã đấu tranh nhằm chấm dứt nạn phân biệt chủng tộc?",
+      "answers": [
+        {
+          "en": "civil rights (movement)",
+          "vi": "phong trào Dân quyền"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the women's suffrage movement",
+          "vi": "phong trào đòi quyền bầu cử cho phụ nữ"
+        },
+        {
+          "en": "the labor union movement",
+          "vi": "phong trào công đoàn lao động"
+        },
+        {
+          "en": "the abolitionist movement",
+          "vi": "phong trào bãi nô"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 85,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "What did Martin Luther King, Jr. do?",
+      "vi": "Martin Luther King, Jr. đã làm gì?",
+      "answers": [
+        {
+          "en": "fought for civil rights",
+          "vi": "đấu tranh cho quyền công dân"
+        },
+        {
+          "en": "worked for equality for all Americans",
+          "vi": "đấu tranh cho sự bình đẳng của mọi người dân Mỹ"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "freed the slaves",
+          "vi": "giải phóng nô lệ"
+        },
+        {
+          "en": "was the first Black U.S. President",
+          "vi": "là Tổng thống da đen đầu tiên của Mỹ"
+        },
+        {
+          "en": "wrote the Declaration of Independence",
+          "vi": "viết Tuyên Ngôn Độc Lập"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 86,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "What major event happened on September 11, 2001, in the United States?",
+      "vi": "Sự kiện lớn nào đã xảy ra tại Hoa Kỳ vào ngày 11 tháng 9 năm 2001?",
+      "answers": [
+        {
+          "en": "Terrorists attacked the United States.",
+          "vi": "Những kẻ khủng bố đã tấn công Hoa Kỳ."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "The stock market crashed, starting the Great Depression.",
+          "vi": "Thị trường chứng khoán sụp đổ, khởi đầu Đại Khủng hoảng."
+        },
+        {
+          "en": "The Cold War ended.",
+          "vi": "Chiến tranh Lạnh kết thúc."
+        },
+        {
+          "en": "Hurricane Katrina struck the Gulf Coast.",
+          "vi": "Bão Katrina đổ bộ vào vùng Vịnh."
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 87,
+      "category": "history",
+      "section": "Lịch Sử Hiện Đại Và Sự Kiện Quan Trọng Khác",
+      "en": "Name one American Indian tribe in the United States.",
+      "vi": "Nêu tên một bộ tộc người da đỏ bản địa tại Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "Cherokee",
+          "vi": "Cherokee"
+        },
+        {
+          "en": "Navajo",
+          "vi": "Navajo"
+        },
+        {
+          "en": "Sioux",
+          "vi": "Sioux"
+        },
+        {
+          "en": "Chippewa",
+          "vi": "Chippewa"
+        },
+        {
+          "en": "Choctaw",
+          "vi": "Choctaw"
+        },
+        {
+          "en": "Pueblo",
+          "vi": "Pueblo"
+        },
+        {
+          "en": "Apache",
+          "vi": "Apache"
+        },
+        {
+          "en": "Iroquois",
+          "vi": "Iroquois"
+        },
+        {
+          "en": "Creek",
+          "vi": "Creek"
+        },
+        {
+          "en": "Blackfeet",
+          "vi": "Blackfeet"
+        },
+        {
+          "en": "Seminole",
+          "vi": "Seminole"
+        },
+        {
+          "en": "Cheyenne",
+          "vi": "Cheyenne"
+        },
+        {
+          "en": "Arawak",
+          "vi": "Arawak"
+        },
+        {
+          "en": "Shawnee",
+          "vi": "Shawnee"
+        },
+        {
+          "en": "Mohegan",
+          "vi": "Mohegan"
+        },
+        {
+          "en": "Huron",
+          "vi": "Huron"
+        },
+        {
+          "en": "Oneida",
+          "vi": "Oneida"
+        },
+        {
+          "en": "Lakota",
+          "vi": "Lakota"
+        },
+        {
+          "en": "Crow",
+          "vi": "Crow"
+        },
+        {
+          "en": "Teton",
+          "vi": "Teton"
+        },
+        {
+          "en": "Hopi",
+          "vi": "Hopi"
+        },
+        {
+          "en": "Inuit",
+          "vi": "Inuit"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Vikings",
+          "vi": "người Viking"
+        },
+        {
+          "en": "the Aztecs",
+          "vi": "người Aztec"
+        },
+        {
+          "en": "the Maori",
+          "vi": "người Maori"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 88,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "Name one of the two longest rivers in the United States.",
+      "vi": "Nêu tên một trong hai con sông dài nhất Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "Missouri (River)",
+          "vi": "sông Missouri"
+        },
+        {
+          "en": "Mississippi (River)",
+          "vi": "sông Mississippi"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "the Colorado River",
+          "vi": "sông Colorado"
+        },
+        {
+          "en": "the Rio Grande",
+          "vi": "sông Rio Grande"
+        },
+        {
+          "en": "the Hudson River",
+          "vi": "sông Hudson"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 89,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "What ocean is on the West Coast of the United States?",
+      "vi": "Đại dương nào nằm ở bờ Tây Hoa Kỳ?",
+      "answers": [
+        {
+          "en": "Pacific (Ocean)",
+          "vi": "Thái Bình Dương"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Atlantic Ocean",
+          "vi": "Đại Tây Dương"
+        },
+        {
+          "en": "Arctic Ocean",
+          "vi": "Bắc Băng Dương"
+        },
+        {
+          "en": "Indian Ocean",
+          "vi": "Ấn Độ Dương"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 90,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "What ocean is on the East Coast of the United States?",
+      "vi": "Đại dương nào nằm ở bờ Đông Hoa Kỳ?",
+      "answers": [
+        {
+          "en": "Atlantic (Ocean)",
+          "vi": "Đại Tây Dương"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Pacific Ocean",
+          "vi": "Thái Bình Dương"
+        },
+        {
+          "en": "Gulf of Mexico",
+          "vi": "Vịnh Mexico"
+        },
+        {
+          "en": "Arctic Ocean",
+          "vi": "Bắc Băng Dương"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 91,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "Name one U.S. territory.",
+      "vi": "Nêu tên một vùng lãnh thổ của Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "Puerto Rico",
+          "vi": "Puerto Rico"
+        },
+        {
+          "en": "U.S. Virgin Islands",
+          "vi": "Quần đảo Virgin thuộc Mỹ"
+        },
+        {
+          "en": "American Samoa",
+          "vi": "Samoa thuộc Mỹ"
+        },
+        {
+          "en": "Northern Mariana Islands",
+          "vi": "Quần đảo Bắc Mariana"
+        },
+        {
+          "en": "Guam",
+          "vi": "Guam"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Cuba",
+          "vi": "Cuba"
+        },
+        {
+          "en": "Bermuda",
+          "vi": "Bermuda"
+        },
+        {
+          "en": "the Philippines",
+          "vi": "Philippines"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 92,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "Name one state that borders Canada.",
+      "vi": "Nêu tên một bang giáp ranh với Canada.",
+      "answers": [
+        {
+          "en": "Maine",
+          "vi": "Maine"
+        },
+        {
+          "en": "New Hampshire",
+          "vi": "New Hampshire"
+        },
+        {
+          "en": "Vermont",
+          "vi": "Vermont"
+        },
+        {
+          "en": "New York",
+          "vi": "New York"
+        },
+        {
+          "en": "Pennsylvania",
+          "vi": "Pennsylvania"
+        },
+        {
+          "en": "Ohio",
+          "vi": "Ohio"
+        },
+        {
+          "en": "Michigan",
+          "vi": "Michigan"
+        },
+        {
+          "en": "Minnesota",
+          "vi": "Minnesota"
+        },
+        {
+          "en": "North Dakota",
+          "vi": "North Dakota"
+        },
+        {
+          "en": "Montana",
+          "vi": "Montana"
+        },
+        {
+          "en": "Idaho",
+          "vi": "Idaho"
+        },
+        {
+          "en": "Washington",
+          "vi": "Washington"
+        },
+        {
+          "en": "Alaska",
+          "vi": "Alaska"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "California",
+          "vi": "California"
+        },
+        {
+          "en": "Texas",
+          "vi": "Texas"
+        },
+        {
+          "en": "Florida",
+          "vi": "Florida"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 93,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "Name one state that borders Mexico.",
+      "vi": "Nêu tên một bang giáp ranh với Mexico.",
+      "answers": [
+        {
+          "en": "California",
+          "vi": "California"
+        },
+        {
+          "en": "Arizona",
+          "vi": "Arizona"
+        },
+        {
+          "en": "New Mexico",
+          "vi": "New Mexico"
+        },
+        {
+          "en": "Texas",
+          "vi": "Texas"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Florida",
+          "vi": "Florida"
+        },
+        {
+          "en": "Nevada",
+          "vi": "Nevada"
+        },
+        {
+          "en": "Colorado",
+          "vi": "Colorado"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 94,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "What is the capital of the United States?",
+      "vi": "Thủ đô của Hoa Kỳ là gì?",
+      "answers": [
+        {
+          "en": "Washington, D.C.",
+          "vi": "Washington, D.C."
+        }
+      ],
+      "distractors": [
+        {
+          "en": "New York City",
+          "vi": "Thành phố New York"
+        },
+        {
+          "en": "Philadelphia",
+          "vi": "Philadelphia"
+        },
+        {
+          "en": "Los Angeles",
+          "vi": "Los Angeles"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 95,
+      "category": "civics",
+      "section": "Địa Lý",
+      "en": "Where is the Statue of Liberty?",
+      "vi": "Tượng Nữ Thần Tự Do (Statue of Liberty) nằm ở đâu?",
+      "answers": [
+        {
+          "en": "New York (Harbor)",
+          "vi": "Cảng New York"
+        },
+        {
+          "en": "Liberty Island",
+          "vi": "Đảo Liberty"
+        },
+        {
+          "en": "New Jersey",
+          "vi": "New Jersey"
+        },
+        {
+          "en": "near New York City",
+          "vi": "gần thành phố New York"
+        },
+        {
+          "en": "on the Hudson River",
+          "vi": "trên sông Hudson"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Washington, D.C.",
+          "vi": "Washington, D.C."
+        },
+        {
+          "en": "Boston Harbor",
+          "vi": "Cảng Boston"
+        },
+        {
+          "en": "San Francisco Bay",
+          "vi": "Vịnh San Francisco"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 96,
+      "category": "civics",
+      "section": "Biểu Tượng Quốc Gia",
+      "en": "Why does the flag have 13 stripes?",
+      "vi": "Tại sao lá cờ Mỹ có 13 sọc?",
+      "answers": [
+        {
+          "en": "because there were 13 original colonies",
+          "vi": "vì có 13 thuộc địa lập quốc ban đầu"
+        },
+        {
+          "en": "because the stripes represent the original colonies",
+          "vi": "vì các sọc tượng trưng cho 13 thuộc địa ban đầu"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "because there were 13 signers of the Declaration of Independence",
+          "vi": "vì có 13 người ký Tuyên Ngôn Độc Lập"
+        },
+        {
+          "en": "to represent the 13 Founding Fathers",
+          "vi": "để đại diện cho 13 vị Quốc phụ"
+        },
+        {
+          "en": "because the flag went through 13 design versions",
+          "vi": "vì lá cờ đã trải qua 13 phiên bản thiết kế"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 97,
+      "category": "civics",
+      "section": "Biểu Tượng Quốc Gia",
+      "en": "Why does the flag have 50 stars?",
+      "vi": "Tại sao lá cờ Mỹ có 50 ngôi sao?",
+      "answers": [
+        {
+          "en": "because there is one star for each state",
+          "vi": "vì mỗi ngôi sao đại diện cho một bang"
+        },
+        {
+          "en": "because each star represents a state",
+          "vi": "vì mỗi ngôi sao tượng trưng cho một bang"
+        },
+        {
+          "en": "because there are 50 states",
+          "vi": "vì Hoa Kỳ có 50 bang"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "because there were 50 original colonies",
+          "vi": "vì có 50 thuộc địa lập quốc ban đầu"
+        },
+        {
+          "en": "to represent 50 Founding Fathers",
+          "vi": "để đại diện cho 50 vị Quốc phụ"
+        },
+        {
+          "en": "because the flag has been redesigned 50 times",
+          "vi": "vì lá cờ đã được thiết kế lại 50 lần"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 98,
+      "category": "civics",
+      "section": "Biểu Tượng Quốc Gia",
+      "en": "What is the name of the national anthem?",
+      "vi": "Quốc ca Hoa Kỳ có tên là gì?",
+      "answers": [
+        {
+          "en": "The Star-Spangled Banner",
+          "vi": "“The Star-Spangled Banner” (Lá Cờ Ánh Sao Lấp Lánh)"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "America the Beautiful",
+          "vi": "“America the Beautiful”"
+        },
+        {
+          "en": "God Bless America",
+          "vi": "“God Bless America”"
+        },
+        {
+          "en": "My Country, 'Tis of Thee",
+          "vi": "“My Country, 'Tis of Thee”"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 99,
+      "category": "civics",
+      "section": "Ngày Lễ",
+      "en": "When do we celebrate Independence Day?",
+      "vi": "Ngày Quốc Khánh (Independence Day) của Hoa Kỳ được tổ chức vào ngày nào?",
+      "answers": [
+        {
+          "en": "July 4",
+          "vi": "ngày 4 tháng 7"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "July 14",
+          "vi": "ngày 14 tháng 7"
+        },
+        {
+          "en": "June 4",
+          "vi": "ngày 4 tháng 6"
+        },
+        {
+          "en": "September 4",
+          "vi": "ngày 4 tháng 9"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    },
+    {
+      "id": 100,
+      "category": "civics",
+      "section": "Ngày Lễ",
+      "en": "Name two national U.S. holidays.",
+      "vi": "Nêu tên hai ngày lễ liên bang của Hoa Kỳ.",
+      "answers": [
+        {
+          "en": "New Year's Day",
+          "vi": "Tết Dương lịch"
+        },
+        {
+          "en": "Martin Luther King, Jr. Day",
+          "vi": "Ngày Martin Luther King, Jr."
+        },
+        {
+          "en": "Presidents' Day",
+          "vi": "Ngày Tổng thống"
+        },
+        {
+          "en": "Memorial Day",
+          "vi": "Ngày Tưởng niệm"
+        },
+        {
+          "en": "Juneteenth",
+          "vi": "Juneteenth"
+        },
+        {
+          "en": "Independence Day",
+          "vi": "Ngày Độc lập"
+        },
+        {
+          "en": "Labor Day",
+          "vi": "Ngày Lao động"
+        },
+        {
+          "en": "Columbus Day",
+          "vi": "Ngày Columbus"
+        },
+        {
+          "en": "Veterans Day",
+          "vi": "Ngày Cựu chiến binh"
+        },
+        {
+          "en": "Thanksgiving",
+          "vi": "Lễ Tạ ơn"
+        },
+        {
+          "en": "Christmas",
+          "vi": "Giáng sinh"
+        }
+      ],
+      "distractors": [
+        {
+          "en": "Valentine's Day",
+          "vi": "Lễ Tình Nhân"
+        },
+        {
+          "en": "Halloween",
+          "vi": "Lễ Halloween"
+        },
+        {
+          "en": "St. Patrick's Day",
+          "vi": "Lễ Thánh Patrick"
+        }
+      ],
+      "dynamic": false,
+      "personalized": false
+    }
+  ]
+}
